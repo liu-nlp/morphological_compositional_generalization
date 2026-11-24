@@ -26,3 +26,4 @@
 ## Evaluation
 
 - The main evaluation code is in evaluate.py
+- The evaluation_results/ folder contains exact match and consistency scores as well as a list of errors for each model and data split.
