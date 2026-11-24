@@ -1,0 +1,2292 @@
+{
+  "428": [
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;AT+ESS;SG(keeluaeg)",
+      "Generated word": "keelualal",
+      "Correct word": "keeluajal",
+      "Input": "N;NOM;SG(kalapüük) N;AT+ESS;SG(keeluaeg) N;AT+ALL;SG(õigusnorm)",
+      "Generation": "kalapüük keelualal õigusnormile",
+      "Correct": "kalapüük keeluajal õigusnormile"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V.PTCP;ACT;PRS(toimuma)",
+      "Generated word": "toimumas",
+      "Correct word": "toimuv",
+      "Input": "ADJ;POS;NOM;SG(virtuaalne) N;NOM;SG(privaatvõrk) V;ACT;PRS;POS;IND;3;SG(saama) N;IN+ALL;SG(privaatvõrk) ADJ;POS;GEN;SG(üldkasutatav) N;GEN;SG(võrk) ADJ;POS;GEN;SG(üldkasutatav) N;GEN;SG(võrk) V.PTCP;ACT;PRS(toimuma) ADJ;POS;IN+ESS;SG(andmevahetu) V;PASS;PRS;POS;IND(muutma) ADJ;POS;TRANS;SG(turvaline)",
+      "Generation": "virtuaalne privaatvõrk saab privaatvõrku üldkasutatava võrgu üldkasutatava võrgu toimumas andmevahetus muudetakse turvaliseks",
+      "Correct": "virtuaalne privaatvõrk saab privaatvõrku|privaatvõrgusse üldkasutatava võrgu üldkasutatava võrgu toimuv andmevahetus muudetakse turvaliseks"
+    },
+    {
+      "Reason": "Generated word not among alternatives",
+      "Input word": "N;IN+ALL;SG(võlakirjafutuur)",
+      "Generated word": "võlakirjafutuurile",
+      "Correct word": "võlakirjafutuuri|võlakirjafutuurisse",
+      "Input": "N;IN+ALL;SG(võlakirjafutuur) N;NOM;SG(optsioon)",
+      "Generation": "võlakirjafutuurile optsioon",
+      "Correct": "võlakirjafutuuri|võlakirjafutuurisse optsioon"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "ADJ;POS;GEN;PL(lepingujärgne)",
+      "Generated word": "lepingujärgsed",
+      "Correct word": "lepingujärgsete",
+      "Input": "N;GEN;PL(tootmissiht) N;AT+ESS;SG(seadmine) N;GEN;PL(tulemus) ADJ;POS;NOM;SG(ühine) N;NOM;SG(rakendamine) V;ACT;PRS;POS;IND;3;SG(hõlmama) ADJ;POS;GEN;PL(lepingujärgne) N;GEN;PL(toode) N;PRT;SG(ühistootmine)",
+      "Generation": "tootmissihtide seadmisel tulemuste ühine rakendamine hõlmab lepingujärgsed toodete ühistootmist",
+      "Correct": "tootmissihtide seadmisel tulemuste ühine rakendamine hõlmab lepingujärgsete toodete ühistootmist"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V.PTCP;PASS;PST(saama)",
+      "Generated word": "saavutatud",
+      "Correct word": "saadud",
+      "Input": "ADJ;POS;GEN;PL(osaline) N;IN+ALL;SG(territoorium) V.PTCP;PASS;PST(saama) N;NOM;SG(kogulisandväärtus)",
+      "Generation": "osaliste territooriumi saavutatud kogulisandväärtus",
+      "Correct": "osaliste territooriumi|territooriumisse saadud kogulisandväärtus"
+    },
+    {
+      "Reason": "Generated word not among alternatives",
+      "Input word": "N;IN+ALL;SG(intressimäärafutuur)",
+      "Generated word": "intressimäärafutuurile",
+      "Correct word": "intressimäärafutuuri|intressimäärafutuurisse",
+      "Input": "N;IN+ALL;SG(intressimäärafutuur) N;NOM;SG(intressiforvard)",
+      "Generation": "intressimäärafutuurile intressiforvard",
+      "Correct": "intressimäärafutuuri|intressimäärafutuurisse intressiforvard"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V.PTCP;PASS;PRS(saama)",
+      "Generated word": "saadakse",
+      "Correct word": "saadav",
+      "Input": "N;IN+ABL;SG(impordimonopol) V.PTCP;PASS;PRS(saama) N;NOM;SG(kasum)",
+      "Generation": "impordimonopolist saadakse kasum",
+      "Correct": "impordimonopolist saadav kasum"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;NOM;SG(vastupidavus)",
+      "Generated word": "võime",
+      "Correct word": "vastupidavus",
+      "Input": "N;GEN;SG(taaste) N;NOM;SG(vastupidavus)",
+      "Generation": "taaste võime",
+      "Correct": "taaste vastupidavus"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V.PTCP;ACT;PRS(tugema)",
+      "Generated word": "toetav",
+      "Correct word": "tugev",
+      "Input": "ADJ;POS;NOM;SG(uurimisalune) N;NOM;SG(toode) V;ACT;PRS;POS;IND;3;SG(olema) V.PTCP;ACT;PRS(tugema) N;NOM;SG(polüesterlõng) V;ACT;PRS;POS;IND;3;SG(olema) N;TRANS;SG(jaemüük) N;NOM;SG(monofilament) N;COM;SG(joontihedus) V.PTCP;PASS;PST(arvama) N;NOM;SG(õmblusniit) ADJ;POS;NOM;SG(mitmekordne) V.PTCP;PASS;PST(korrutama) N;NOM;SG(komplekslõng) V;ACT;PRS;POS;IND;3;SG(olema) V.PTCP;PASS;PST(nägema) N;GEN;SG(õmblusniit) N;TRANS;SG(tootmine) N;IN+ESS;SG(valm) N;TRANS;SG(värvimine) N;TRANS;SG(viimistlemine) ADJ;POS;AT+ABL;SG(lõtv) V.PTCP;PASS;PST(kerima) V.PTCP;PASS;PST(augustama) N;AT+ALL;PL(plastpool) V;ACT;PRS;POS;IND;3;SG(kuuluma) N;NOM;SG(kood) ADJ;POS;NOM;SG(uurimisalune) N;NOM;SG(toode)",
+      "Generation": "uurimisalune toode on toetav polüesterlõng on jaemüügiks monofilament joontihedusega arvatud õmblusniit mitmekordne korrutatud komplekslõng on nähtud õmblusniidi tootmiseks valmis värvimiseks viimistlemiseks lõdvalt keritud augustatud plastpoolidele kuulub kood uurimisalune toode",
+      "Correct": "uurimisalune toode on tugev polüesterlõng on jaemüügiks monofilament joontihedusega arvatud õmblusniit mitmekordne korrutatud komplekslõng on nähtud õmblusniidi|õmblusniidu tootmiseks valmis värvimiseks viimistlemiseks lõdvalt keritud augustatud plastpooltele|plastpoolidele|plastpoolile kuulub kood uurimisalune toode"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;COM;SG(kvootosalus)",
+      "Generated word": "kvootosaluga",
+      "Correct word": "kvootosalusega",
+      "Input": "N;COM;SG(kvootosalus) N;NOM;SG(edasikindlustusleping)",
+      "Generation": "kvootosaluga edasikindlustusleping",
+      "Correct": "kvootosalusega edasikindlustusleping"
+    },
+    {
+      "Reason": "Difference in the number of words",
+      "Number of words generated": 3,
+      "Number of correct words": 2,
+      "Input": "N;NOM;SG(and) N;NOM;SG(märts)",
+      "Generation": "and and märts",
+      "Correct": "and märts"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;SG(teenustesektor)",
+      "Generated word": "teenindussektori",
+      "Correct word": "teenustesektori",
+      "Input": "N;IN+ALL;SG(arve) N;GEN;PL(piirkond) N;PRT;SG(kaugus) V;PASS;PRS;POS;IND(kohaldama) N;NOM;SG(maksuvähendus) V;ACT;PRS;POS;IND;3;SG(piirduma) N;GEN;PL(kodumajapidamine) N;GEN;SG(teenustesektor) N;COM;PL(äriühing) ADJ;POS;PRT;PL(tekkiv) ADJ;POS;PRT;PL(täiendav) N;PRT;PL(küttekulu) V;ACT;PRS;POS;IMP;2;SG(põhjustama) N;NOM;SG(meede) ADJ;POS;PRT;PL(oluline) N;PRT;PL(konkurentsimoonutus) N;PRT;PL(muutus) ADJ;POS;IN+ESS;SG(liikmesriikidevaheline) N;IN+ESS;SG(kaubandus)",
+      "Generation": "arvesse piirkondade kaugust kohaldatakse maksuvähendus piirdub kodumajapidamiste teenindussektori äriühingutega tekkivaid täiendavaid küttekulusid põhjusta meede olulisi konkurentsimoonutusi muutusi liikmesriikidevahelises kaubanduses",
+      "Correct": "arvesse piirkondade kaugust kohaldatakse maksuvähendus piirdub kodumajapidamiste teenustesektori äriühingutega tekkivaid täiendavaid küttekulusid põhjusta meede olulisi konkurentsimoonutusi muutuseid|muutusi liikmesriikidevahelises kaubanduses"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;IN+ABL;SG(lehtpuit)",
+      "Generated word": "lehtpuust",
+      "Correct word": "lehtpuidust",
+      "Input": "ADJ;POS;NOM;SG(välimine) N;NOM;SG(kiht) V;ACT;PRS;POS;IND;3;SG(olema) N;IN+ABL;SG(lehtpuit) N;IN+ABL;PL(liik) N;NOM;SG(lepp) N;NOM;SG(saar) N;NOM;SG(pöök) N;NOM;SG(kask) N;GEN;SG(kirsipuu) N;GEN;SG(kastanipuu) N;NOM;SG(jalakas) N;NOM;SG(eukalüpt) N;NOM;SG(hobukastan) N;NOM;SG(pärn) N;NOM;SG(vaher) N;NOM;SG(tamm) N;NOM;SG(plaatan) N;NOM;SG(pappel) N;NOM;SG(haab) N;IN+ESS;SG(populg) N;GEN;SG(robiinia) N;GEN;SG(ebaakaatsia) N;GEN;SG(tulbipuu) N;GEN;SG(või) N;GEN;SG(pähklipuu)",
+      "Generation": "välimine kiht on lehtpuust liikidest lepp saar pöök kask kirsipuu kastanipuu jalakas eukalüpt hobukastan pärn vaher tamm plaatan pappel haab populus robiinia ebaakaatsia tulbipuu või pähklipuu",
+      "Correct": "välimine kiht on lehtpuidust liikidest|liikudest lepp saar pöök kask kirsipuu kastanipuu jalakas eukalüpt hobukastan pärn vaher tamm plaatan pappel haab populus robiinia ebaakaatsia tulbipuu või pähklipuu"
+    },
+    {
+      "Reason": "Difference in the number of words",
+      "Number of words generated": 6,
+      "Number of correct words": 5,
+      "Input": "N;GEN;PL(meditsiiniregister) N;GEN;SG(või) N;GEN;SG(terviseteave) N;GEN;SG(keskaste) N;NOM;SG(spetsialist)",
+      "Generation": "meditsiiniregistrite või tervise teabe keskaste spetsialist",
+      "Correct": "meditsiiniregistrite või terviseteabe keskastme spetsialist"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;PRT;PL(esi)",
+      "Generated word": "esisid",
+      "Correct word": "esi",
+      "Input": "N;IN+ESS;SG(liit) ADJ;POS;GEN;SG(antav) ADJ;POS;GEN;SG(erakorraline) N;GEN;SG(toetus) N;NOM;SG(vahend) N;PRT;PL(esi)",
+      "Generation": "liidus antava erakorralise toetuse vahend esisid",
+      "Correct": "liidus antava erakorralise toetuse vahend esi"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V;PASS;PRS;POS;IND(võima)",
+      "Generated word": "võib",
+      "Correct word": "võidakse",
+      "Input": "N;TRANS;SG(asutamine) V;PASS;PRS;POS;IND(võima) N;NOM;SG(luba) N;GEN;SG(või) N;IN+ALL;SG(kontsessioon)",
+      "Generation": "asutamiseks võib luba või kontsessiooni",
+      "Correct": "asutamiseks võidakse luba või kontsessioonisse|kontsessiooni"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;NOM;SG(november)",
+      "Generated word": "novembri",
+      "Correct word": "november",
+      "Input": "N;IN+ALL;SG(komisjon) N;NOM;SG(november) N;GEN;SG(aasta) V.PTCP;PASS;PST(delegeerima) N;NOM;SG(määrus)",
+      "Generation": "komisjoni novembri aasta delegeeritud määrus",
+      "Correct": "komisjonisse|komisjoni november aasta delegeeritud määrus"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;NOM;SG(punkt)",
+      "Generated word": "punkti",
+      "Correct word": "punkt",
+      "Input": "N;IN+ALL;SG(klaaskolonn) N;NOM;SG(punkt) N;IN+ALL;SG(põhi) V;PASS;PRS;POS;IND(asetama) ADJ;POS;NOM;SG(väike) ADJ;POS;PRT;SG(klaasvatine) N;NOM;SG(tropp) V;PASS;PRS;POS;IND(suruma) N;IN+ALL;SG(klaaspulk)",
+      "Generation": "klaaskolonni punkti põhja asetatakse väike klaasvatist tropp surutakse klaaspulka",
+      "Correct": "klaaskolonni|klaaskolonnisse punkt põhja|põhjasse asetatakse väike klaasvatist tropp surutakse klaaspulka|klaaspulgasse"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V;PASS;PRS;POS;IND(võima)",
+      "Generated word": "võib",
+      "Correct word": "võidakse",
+      "Input": "N;NOM;SG(liikmesus) N;IN+ESS;SG(võrgustik) V;PASS;PRS;POS;IND(võima) ADJ;POS;AT+ESS;PL(järgmine) N;AT+ESS;PL(juht)",
+      "Generation": "liikmesus võrgustikus võib järgmistel juhtudel",
+      "Correct": "liikmesus võrgustikus võidakse järgmisil|järgmiseil|järgmistel juhtidel|juhtudel"
+    },
+    {
+      "Reason": "Generated word not among alternatives",
+      "Input word": "N;PRT;PL(lään)",
+      "Generated word": "läände",
+      "Correct word": "lääne|läänisid",
+      "Input": "N;PRT;PL(lään)",
+      "Generation": "läände",
+      "Correct": "lääne|läänisid"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;PL(tootmishoone)",
+      "Generated word": "tootmishoone",
+      "Correct word": "tootmishoonete",
+      "Input": "N;GEN;SG(abi) ADJ;POS;GEN;PL(põllumajanduslik) N;GEN;PL(tootmishoone) N;COM;SG(ümberpaigutamine) N;TRANS;PL(investeering) N;NOM;SG(artikkel)",
+      "Generation": "abi põllumajanduslike tootmishoone ümberpaigutamisega investeeringuteks artikkel",
+      "Correct": "abi põllumajanduslikkude|põllumajanduslike tootmishoonete ümberpaigutamisega investeeringuteks|investeeringuiks artikkel"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "ADJ;POS;IN+ESS;SG(nõuetekohane)",
+      "Generated word": "nõuetekohaselt",
+      "Correct word": "nõuetekohases",
+      "Input": "N;AT+ESS;PL(andmed) V;ACT;PRS;POS;COND;3;SG(pidama) V;NFIN(olema) N;GEN;SG(tankimistaristu) ADJ;POS;IN+ESS;SG(nõuetekohane) N;IN+ESS;SG(toimimine) ADJ;POS;NOM;SG(oluline) N;NOM;SG(roll)",
+      "Generation": "andmetel peaks olema tankimistaristu nõuetekohaselt toimimises oluline roll",
+      "Correct": "andmeil|andmetel peaks olema tankimistaristu nõuetekohases toimimises oluline roll"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "ADJ;POS;AT+ABL;SG(lähtuv)",
+      "Generated word": "lähtuvast",
+      "Correct word": "lähtuvalt",
+      "Input": "N;GEN;SG(solidaarsuskorpus) N;PRT;PL(eesmärk) V;PASS;PRS;POS;IND(täitma) ADJ;POS;IN+ABL;PL(järgmine) N;IN+ABL;PL(tegevussuund) ADJ;POS;AT+ABL;SG(lähtuv) ADJ;POS;GEN;PL(noor) N;NOM;SG(osalemine) ADJ;POS;GEN;PL(ühiskondlik) N;GEN;PL(probleem) N;AT+ALL;SG(lahendamine) V.PTCP;PASS;PST(suunama) N;IN+ESS;SG(solidaarsustegevus) ADJ;POS;GEN;PL(noor) N;NOM;SG(osalemine) N;COM;SG(humanitaarabi) N;IN+ESS;SG(solidaarsustegevus) ADJ;POS;NOM;SG(vabatahtlik) N;NOM;SG(humanitaarabikorpus)",
+      "Generation": "solidaarsuskorpuse eesmärke täidetakse järgmistest tegevussuundadest lähtuvast noorte osalemine ühiskondlike probleemide lahendamisele suunatud solidaarsustegevuses noorte osalemine humanitaarabiga solidaarsustegevuses vabatahtlik humanitaarabikorpus",
+      "Correct": "solidaarsuskorpuse eesmärke|eesmärkisid täidetakse järgmiseist|järgmisist|järgmistest tegevussuundadest lähtuvalt noorte osalemine ühiskondlike|ühiskondlikkude probleemide lahendamisele suunatud solidaarsustegevuses noorte osalemine humanitaarabiga solidaarsustegevuses vabatahtlik humanitaarabikorpus"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;IN+ABL;SG(allkirjastamine)",
+      "Generated word": "allakirjastamisest",
+      "Correct word": "allkirjastamisest",
+      "Input": "ADJ;POS;NOM;SG(demokraatlik) N;NOM;SG(rahvavabariik) N;NOM;SG(vabariik) N;NOM;SG(kuningriik) N;NOM;SG(vabariik) N;NOM;SG(kuningriik) V;ACT;PRS;POS;COND;3;PL(saama) N;PRT;SG(osalemine) N;IN+ESS;SG(algatus) V;ACT;PRS;POS;IND;3;SG(tulema) N;IN+ESS;PL(leping) ADJ;POS;NOM;SG(ajutine) N;NOM;SG(kohaldamine) N;IN+ABL;SG(allkirjastamine)",
+      "Generation": "demokraatlik rahvavabariik vabariik kuningriik vabariik kuningriik saaksid osalemist algatuses tuleb lepingutes ajutine kohaldamine allakirjastamisest",
+      "Correct": "demokraatlik rahvavabariik vabariik kuningriik vabariik kuningriik saaksid osalemist algatuses tuleb lepinguis|lepingutes ajutine kohaldamine allkirjastamisest"
+    },
+    {
+      "Reason": "Generated word not among alternatives",
+      "Input word": "N;PRT;PL(kuu)",
+      "Generated word": "kuidest",
+      "Correct word": "kuid|kuusid",
+      "Input": "N;GEN;SG(väljundkiirgus) N;NOM;SG(lainepikkus) N;PRT;PL(kuu) ADJ;POS;IN+ABL;PL(järgmine) N;IN+ABL;PL(omadus)",
+      "Generation": "väljundkiirguse lainepikkus kuidest järgmistest omadustest",
+      "Correct": "väljundkiirguse lainepikkus kuid|kuusid järgmiseist|järgmisist|järgmistest omadusist|omadustest"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V.PTCP;PASS;PST(kuumtöötlema)",
+      "Generated word": "kuumtöötletud",
+      "Correct word": "kuumtöödeldud",
+      "Input": "N;NOM;SG(toorpiim) V.PTCP;PASS;PST(kuumtöötlema) N;NOM;SG(piim) ADJ;POS;GEN;PL(piimapõhine) N;GEN;PL(toode) N;TRANS;SG(valmistamine) V.PTCP;PASS;PRS(kasutama) N;NOM;SG(piim)",
+      "Generation": "toorpiim kuumtöötletud piim piimapõhiste toodete valmistamiseks kasutatav piim",
+      "Correct": "toorpiim kuumtöödeldud piim piimapõhiste toodete valmistamiseks kasutatav piim"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V;ACT;PRS;POS;IMP;2;SG(tugema)",
+      "Generated word": "toeta",
+      "Correct word": "tuge",
+      "Input": "N;NOM;SG(komisjon) V;ACT;PRS;POS;IND;3;SG(andma) N;AT+ALL;PL(liikmesriik) ADJ;POS;PRT;SG(piisav) V;ACT;PRS;POS;IMP;2;SG(tugema) N;GEN;SG(abi) V.PTCP;PASS;PST(koguma) N;GEN;PL(andmed) N;NOM;SG(järjepidevus) N;NOM;SG(läbipaistvus)",
+      "Generation": "komisjon annab liikmesriikidele piisavat toeta abi kogutud andmete järjepidevus läbipaistvus",
+      "Correct": "komisjon annab liikmesriikidele piisavat tuge abi kogutud andmete järjepidevus läbipaistvus"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;NOM;SG(arv)",
+      "Generated word": "arvus",
+      "Correct word": "arv",
+      "Input": "N;GEN;SG(partii) V;ACT;PST;POS;IND;3;SG(koguma) N;IN+ESS;PL(kilogramm) N;GEN;SG(või) N;GEN;PL(kimp) N;NOM;SG(arv) N;IN+ESS;SG(partii)",
+      "Generation": "partii kogus kilogrammides või kimpude arvus partiis",
+      "Correct": "partii kogus kilogrammides või kimpude arv partiis"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;SG(reeksport)",
+      "Generated word": "reeksport",
+      "Correct word": "reekspordi",
+      "Input": "N;GEN;SG(reeksport) N;NOM;SG(deklaratsioon)",
+      "Generation": "reeksport deklaratsioon",
+      "Correct": "reekspordi deklaratsioon"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;COM;SG(tähtsus)",
+      "Generated word": "tähtsustega",
+      "Correct word": "tähtsusega",
+      "Input": "V;ACT;PRS;POS;IND;3;SG(olema) ADJ;POS;NOM;SG(ökoloogiline) N;NOM;SG(võrgustik) ADJ;POS;GEN;PL(looduslik) N;GEN;PL(taimeliik) N;GEN;SG(ühendus) N;COM;SG(tähtsus) ADJ;POS;GEN;PL(looduslik) N;GEN;PL(elupaik) N;TRANS;SG(kaitse) N;IN+ESS;SG(liit)",
+      "Generation": "on ökoloogiline võrgustik looduslike taimeliikide ühenduse tähtsustega looduslike elupaikade kaitseks liidus",
+      "Correct": "on ökoloogiline võrgustik looduslike|looduslikkude taimeliikide ühenduse tähtsusega looduslike|looduslikkude elupaikade kaitseks|kaitsmeks liidus"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V;ACT;PRS;POS;IMP;2;PL(märkima)",
+      "Generated word": "märgi",
+      "Correct word": "märkige",
+      "Input": "ADJ;POS;PRT;SG(asjaomane) N;NOM;SG(luba) V;ACT;PRS;POS;IMP;2;SG(olema) V.PTCP;PASS;PST(andma) V;ACT;PRS;POS;IMP;2;PL(märkima) N;GEN;SG(taotlus) N;NOM;SG(registreerimisnumber)",
+      "Generation": "asjaomast luba ole antud märgi taotluse registreerimisnumber",
+      "Correct": "asjaomast luba ole antud märkige taotluse registreerimisnumber"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;IN+ESS;SG(töökord)",
+      "Generated word": "töökordus",
+      "Correct word": "töökorras",
+      "Input": "ADJ;POS;GEN;SG(komplektne) N;IN+ESS;SG(töökord) N;GEN;SG(baassõiduk) N;NOM;SG(mass)",
+      "Generation": "komplektse töökordus baassõiduki mass",
+      "Correct": "komplektse töökorras baassõiduki mass"
+    },
+    {
+      "Reason": "Generated word not among alternatives",
+      "Input word": "N;PRT;PL(katt)",
+      "Generated word": "katt)",
+      "Correct word": "katte|kattusid",
+      "Input": "N;GEN;SG(klaaskate) N;GEN;SG(või) N;COM;SG(sisenemisvõimalus) ADJ;POS;GEN;SG(kõrge) N;PRT;PL(katt) N;NOM;SG(alt) V.PTCP;PASS;PST(koristama) N;NOM;SG(saak) N;IN+ESS;PL(tonn)",
+      "Generation": "klaaskatte või sisenemisvõimalusega kõrge katt) alt koristatud saak tonnides",
+      "Correct": "klaaskatte või sisenemisvõimalusega kõrge katte|kattusid alt koristatud saak tonnides"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V.PTCP;PASS;PST(jätma)",
+      "Generated word": "jäetu",
+      "Correct word": "jäetud",
+      "Input": "V.PTCP;PASS;PST(jätma)",
+      "Generation": "jäetu",
+      "Correct": "jäetud"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V.PTCP;PASS;PST(jätma)",
+      "Generated word": "jäetu",
+      "Correct word": "jäetud",
+      "Input": "V.PTCP;PASS;PST(jätma)",
+      "Generation": "jäetu",
+      "Correct": "jäetud"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;NOM;SG(projektiklass)",
+      "Generated word": "projektiklassi",
+      "Correct word": "projektiklass",
+      "Input": "N;NOM;SG(projektiklass) ADJ;POS;GEN;PL(puhas) ADJ;POS;GEN;PL(vedel) ADJ;POS;GEN;PL(gaasiline) N;GEN;PL(kütus) N;NOM;SG(tootmine)",
+      "Generation": "projektiklassi puhaste vedelate gaasiliste kütuste tootmine",
+      "Correct": "projektiklass puhaste vedelite|vedelate gaasiliste kütuste tootmine"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "ADJ;POS;GEN;SG(toimuv)",
+      "Generated word": "toimuv",
+      "Correct word": "toimuva",
+      "Input": "V;ACT;PRS;POS;IND;3;SG(olema) V.PTCP;PASS;PST(siduma) ADJ;POS;GEN;SG(toimuv) ADJ;POS;GEN;SG(destabiliseeriv) N;COM;SG(tegevus) N;NOM;SG(eesmärk) V;ACT;PRS;POS;IND;3;SG(olema) N;IN+ALL;SG(provints) N;NOM;SG(eraldumine)",
+      "Generation": "on seotud toimuv destabiliseeriva tegevusega eesmärk on provintsi eraldumine",
+      "Correct": "on seotud toimuva destabiliseeriva tegevusega eesmärk on provintsi|provintsisse eraldumine"
+    },
+    {
+      "Reason": "Difference in the number of words",
+      "Number of words generated": 16,
+      "Number of correct words": 17,
+      "Input": "N;PRT;PL(uuring) V;ACT;PRS;POS;COND;3;SG(olema) ADJ;POS;NOM;SG(võimalik) ADJ;POS;AT+ALL;SG(lõpp) N;NOM;SG(põhimõtteühtlus) N;GEN;SG(loodepiirkond) N;COM;PL(vesi) N;IN+ESS;PL(põhjendus) V.PTCP;PASS;PST(esitama) N;AT+ESS;PL(põhjus) V;ACT;PRS;POS;IND;3;SG(leidma) N;NOM;SG(komisjon) V.PTCP;PASS;PST(taotlema) N;NOM;SG(erand) V;ACT;PRS;POS;COND;3;SG(tulema) N;IN+ABL;SG(jaanuar) N;TERM;SG(detsember)",
+      "Generation": "uuringuid oleks võimalik lõpule loodepiirkonna vetega põhjendustes esitatud põhjustel leiab komisjon taotletud erand tuleks jaanuarist detsembrini",
+      "Correct": "uuringuid oleks võimalik lõpule põhimõtteühtlus loodepiirkonna vetega põhjendusis|põhjendustes esitatud põhjusil|põhjuseil|põhjustel leiab komisjon taotletud erand tuleks jaanuarist detsembrini"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V.PTCP;ACT;PRS(toimuma)",
+      "Generated word": "toimumas",
+      "Correct word": "toimuv",
+      "Input": "ADJ;POS;AT+ESS;PL(tavapärane) N;AT+ESS;PL(turutingimus) V.PTCP;ACT;PRS(toimuma) N;NOM;SG(ost) N;GEN;SG(või) N;NOM;SG(müük)",
+      "Generation": "tavapärastel turutingimustel toimumas ost või müük",
+      "Correct": "tavapäraseil|tavapärastel turutingimusil|turutingimustel toimuv ost või müük"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;PL(väi)",
+      "Generated word": "väite",
+      "Correct word": "väide",
+      "Input": "N;GEN;SG(artikkel) N;PRT;PL(lõik) N;NOM;SG(punkt) N;GEN;PL(laps) N;AT+ALL;SG(areng) N;AT+ALL;SG(tervis) V.PTCP;ACT;PRS(viitama) ADJ;POS;NOM;SG(tervisealane) N;GEN;PL(väi)",
+      "Generation": "artikli lõike punkt laste arengule tervisele viitav tervisealane väite",
+      "Correct": "artikli lõikusid|lõike punkt laste arengule tervisele viitav tervisealane väide"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "ADJ;POS;GEN;PL(rongisisene)",
+      "Generated word": "rongisisese",
+      "Correct word": "rongisiseste",
+      "Input": "N;NOM;SG(integreerimine) ADJ;POS;GEN;PL(rongisisene) N;IN+ALL;SG(kontroll) N;GEN;SG(signaalimine) N;COM;PL(allsüsteem)",
+      "Generation": "integreerimine rongisisese kontrolli signaalimise allsüsteemidega",
+      "Correct": "integreerimine rongisiseste kontrolli|kontrollisse signaalimise allsüsteemidega"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;NOM;PL(raamatupidamisaruanne)",
+      "Generated word": "raamatupidamisaruanne",
+      "Correct word": "raamatupidamisaruanded",
+      "Input": "V;ACT;PST;POS;IND;3;PL(väitma) V;ACT;PRS;POS;IMP;2;SG(toetama) N;NOM;PL(raamatupidamisaruanne) V;ACT;PST;POS;IND;3;SG(selguma) N;NOM;SG(remiks) ADJ;POS;NOM;SG(keskmine) N;NOM;SG(tegevusmarginaal) V;ACT;PST;POS;IND;3;SG(olema) N;AT+ESS;PL(aasta)",
+      "Generation": "väitsid toeta raamatupidamisaruanne selgus remiks keskmine tegevusmarginaal oli aastatel",
+      "Correct": "väitsid toeta raamatupidamisaruanded selgus remiks keskmine tegevusmarginaal oli aastail|aastatel"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;PRT;SG(pars)",
+      "Generated word": "parsi",
+      "Correct word": "part",
+      "Input": "V;ACT;PRS;POS;IND;3;SG(olema) N;PRT;SG(pars)",
+      "Generation": "on parsi",
+      "Correct": "on part"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;NOM;SG(tekst)",
+      "Generated word": "teksti",
+      "Correct word": "tekst",
+      "Input": "N;IN+ALL;SG(protokoll) N;NOM;SG(tekst) V;ACT;PRS;POS;IND;3;SG(olema) V.PTCP;PASS;PST(avaldama)",
+      "Generation": "protokolli teksti on avaldatud",
+      "Correct": "protokolli|protokollisse tekst on avaldatud"
+    },
+    {
+      "Reason": "Generated word not among alternatives",
+      "Input word": "N;PRT;PL(heit)",
+      "Generated word": "heiteid",
+      "Correct word": "heitusid|heite",
+      "Input": "N;PRT;PL(heit) N;NOM;SG(järjenumber)",
+      "Generation": "heiteid järjenumber",
+      "Correct": "heitusid|heite järjenumber"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;NOM;SG(komponent)",
+      "Generated word": "N;NOM;SG(komponent)",
+      "Correct word": "komponent",
+      "Input": "V;ACT;PRS;POS;IND;3;SG(olema) V.PTCP;ACT;PRS(vastama) N;NOM;SG(komponent)",
+      "Generation": "on vastav N;NOM;SG(komponent)",
+      "Correct": "on vastav komponent"
+    },
+    {
+      "Reason": "Generated word not among alternatives",
+      "Input word": "N;GEN;SG(kiir)",
+      "Generated word": "kiiruse",
+      "Correct word": "kiiru|kiire",
+      "Input": "V;ACT;PRS;POS;IND;3;SG(olema) V.PTCP;ACT;PRS(tungima) N;NOM;SG(vajadus) ADJ;POS;GEN;PL(ühine) N;GEN;PL(uurimisrühm) N;IN+ALL;SG(koostööplatvorm) ADJ;POS;AT+ABL;SG(tõhus) N;PRT;SG(teave) N;PRT;PL(tõend) ADJ;POS;AT+ESS;SG(turvaline) N;AT+ESS;SG(viis) ADJ;CMPR;GEN;PL(raske) N;GEN;PL(kuritegu) ADJ;POS;GEN;PL(vastutav) N;GEN;PL(isik) N;GEN;SG(kiir) N;AT+ALL;SG(vastutus) N;NOM;SG(võtmine)",
+      "Generation": "on tungiv vajadus ühiste uurimisrühmade koostööplatvormi tõhusalt teavet tõendeid turvalisel viisil raskemate kuritegude vastutavate isikute kiiruse vastutusele võtmine",
+      "Correct": "on tungiv vajadus ühiste uurimisrühmade koostööplatvormisse|koostööplatvormi tõhusalt teavet tõendeid turvalisel viisil|viiel raskemate kuritegude vastutavate isikute kiiru|kiire vastutusele võtmine"
+    },
+    {
+      "Reason": "Difference in the number of words",
+      "Number of words generated": 2,
+      "Number of correct words": 3,
+      "Input": "N;GEN;PL(lohvrehv) N;GEN;SG(valamine) N;NOM;SG(balloon)",
+      "Generation": "lohvrehvide valamistrummel",
+      "Correct": "lohvrehvide valamise balloon"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;NOM;SG(mass)",
+      "Generated word": "massis",
+      "Correct word": "mass",
+      "Input": "N;IN+ALL;SG(proov) N;NOM;SG(mass) N;IN+ESS;PL(gramm)",
+      "Generation": "proovi massis grammides",
+      "Correct": "proovi|proovisse mass grammides"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V;ACT;PRS;POS;IMP;2;SG(müüma)",
+      "Generated word": "müügi",
+      "Correct word": "müü",
+      "Input": "V;ACT;PRS;POS;IMP;2;SG(müüma) N;NOM;SG(kogumaht) N;GEN;SG(liit) N;AT+ESS;SG(turg) N;IN+ESS;PL(tonn)",
+      "Generation": "müügi kogumaht liidu turul tonnides",
+      "Correct": "müü kogumaht liidu turul tonnides"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;IN+ALL;SG(rakendusala)",
+      "Generated word": "rakendusala",
+      "Correct word": "rakendusalasse",
+      "Input": "N;IN+ALL;SG(paragrahv) N;IN+ALL;SG(rakendusala) ADJ;POS;GEN;PL(kuuluv) V.PTCP;PASS;PST(kajastama) N;GEN;PL(finantsvara) V.PTCP;PASS;PST(kajastama) N;GEN;PL(finantskohustis) N;GEN;PL(brutosumma) N;NOM;SG(avalikustamine) N;IN+ALL;SG(paragrahv) N;NOM;SG(punkt)",
+      "Generation": "paragrahvi rakendusala kuuluvate kajastatud finantsvarade kajastatud finantskohustiste brutosummade avalikustamine paragrahvi punkt",
+      "Correct": "paragrahvisse|paragrahvi rakendusalasse kuuluvate kajastatud finantsvarade kajastatud finantskohustiste brutosummade avalikustamine paragrahvisse|paragrahvi punkt"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;NOM;SG(amet)",
+      "Generated word": "ametis",
+      "Correct word": "amet",
+      "Input": "V;ACT;PRS;POS;IND;3;SG(täitma) N;NOM;SG(amet) N;IN+ESS;SG(lisa) V.PTCP;PASS;PST(esitama) N;PRT;PL(nõue)",
+      "Generation": "täidab ametis lisas esitatud nõudeid",
+      "Correct": "täidab amet lisas esitatud nõudeid"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V.PTCP;PASS;PST(keelduma)",
+      "Generated word": "keelutud",
+      "Correct word": "keeldutud",
+      "Input": "ADJ;POS;AT+ABL;SG(osaline) V.PTCP;PASS;PST(keelduma)",
+      "Generation": "osaliselt keelutud",
+      "Correct": "osaliselt keeldutud"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;PRT;SG(valim)",
+      "Generated word": "valimist",
+      "Correct word": "valimit",
+      "Input": "V;ACT;PST;POS;IND;3;SG(pidama) N;NOM;SG(komisjon) N;PRT;SG(valim) ADJ;POS;TRANS;SG(representatiivne)",
+      "Generation": "pidas komisjon valimist representatiivseks",
+      "Correct": "pidas|pidi komisjon valimit representatiivseks"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;COM;SG(kont)",
+      "Generated word": "konniga",
+      "Correct word": "kondiga",
+      "Input": "N;COM;SG(kont) N;GEN;SG(liha) ADJ;POS;NOM;SG(loomulik) N;NOM;SG(kääritamine) N;NOM;SG(laagerdamine) N;NOM;PL(kuu) N;NOM;SG(väärtus) N;NOM;SG(väärtus)",
+      "Generation": "konniga liha loomulik kääritamine laagerdamine kuud väärtus väärtus",
+      "Correct": "kondiga liha loomulik kääritamine laagerdamine kuud väärtus väärtus"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V.PTCP;ACT;PRS(kuuluma)",
+      "Generated word": "kuuluvale",
+      "Correct word": "kuuluv",
+      "Input": "N;IN+ALL;SG(grupp) V.PTCP;ACT;PRS(kuuluma) ADJ;POS;IN+ABL;PL(keemiline) N;IN+ABL;PL(filamentkiud) N;NOM;SG(köisik) N;IN+ALL;SG(grupp) V.PTCP;ACT;PRS(kuuluma) N;NOM;SG(multifilamentlõng) N;GEN;SG(või) N;PRT;PL(laug) N;COM;SG(keerdumus) ADJ;POS;GEN;SG(keerd) N;AT+ESS;SG(meeter)",
+      "Generation": "gruppi kuuluvale keemilistest filamentkiududest köisik gruppi kuuluva multifilamentlõnga või lauge keerdumusega keeru meetril",
+      "Correct": "gruppi|grupisse kuuluv keemilisist|keemilistest filamentkiududest köisik gruppi|grupisse kuuluv multifilamentlõng või lauge|laugusid keerdumusega keeru meetril"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V.PTCP;ACT;PRS(kuuluma)",
+      "Generated word": "kuuluva",
+      "Correct word": "kuuluv",
+      "Input": "N;IN+ALL;SG(grupp) V.PTCP;ACT;PRS(kuuluma) ADJ;POS;IN+ABL;PL(keemiline) N;IN+ABL;PL(filamentkiud) N;NOM;SG(köisik) N;IN+ALL;SG(grupp) V.PTCP;ACT;PRS(kuuluma) N;NOM;SG(multifilamentlõng) N;GEN;SG(või) N;PRT;PL(laug) N;COM;SG(keerdumus) ADJ;POS;GEN;SG(keerd) N;AT+ESS;SG(meeter)",
+      "Generation": "gruppi kuuluvale keemilistest filamentkiududest köisik gruppi kuuluva multifilamentlõnga või lauge keerdumusega keeru meetril",
+      "Correct": "gruppi|grupisse kuuluv keemilisist|keemilistest filamentkiududest köisik gruppi|grupisse kuuluv multifilamentlõng või lauge|laugusid keerdumusega keeru meetril"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;NOM;SG(multifilamentlõng)",
+      "Generated word": "multifilamentlõnga",
+      "Correct word": "multifilamentlõng",
+      "Input": "N;IN+ALL;SG(grupp) V.PTCP;ACT;PRS(kuuluma) ADJ;POS;IN+ABL;PL(keemiline) N;IN+ABL;PL(filamentkiud) N;NOM;SG(köisik) N;IN+ALL;SG(grupp) V.PTCP;ACT;PRS(kuuluma) N;NOM;SG(multifilamentlõng) N;GEN;SG(või) N;PRT;PL(laug) N;COM;SG(keerdumus) ADJ;POS;GEN;SG(keerd) N;AT+ESS;SG(meeter)",
+      "Generation": "gruppi kuuluvale keemilistest filamentkiududest köisik gruppi kuuluva multifilamentlõnga või lauge keerdumusega keeru meetril",
+      "Correct": "gruppi|grupisse kuuluv keemilisist|keemilistest filamentkiududest köisik gruppi|grupisse kuuluv multifilamentlõng või lauge|laugusid keerdumusega keeru meetril"
+    },
+    {
+      "Reason": "Difference in the number of words",
+      "Number of words generated": 13,
+      "Number of correct words": 11,
+      "Input": "N;GEN;SG(töö) V;ACT;PRS;POS;COND;3;SG(saama) N;IN+ESS;PL(põhjendus) V.PTCP;PASS;PST(esitama) N;AT+ESS;PL(põhjus) V;ACT;PRS;POS;IND;3;SG(leidma) N;NOM;SG(komisjon) N;NOM;SG(erand) V;ACT;PRS;POS;COND;3;SG(tulema) N;IN+ABL;SG(jaanuar) N;TERM;SG(detsember)",
+      "Generation": "töö genitiiv singulaar saaks põhjendustes esitatud põhjustel leiab komisjon erand tuleks jaanuarist detsembrini",
+      "Correct": "töö saaks põhjendusis|põhjendustes esitatud põhjusil|põhjuseil|põhjustel leiab komisjon erand tuleks jaanuarist detsembrini"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;AT+ESS;SG(kandekana)",
+      "Generated word": "kandekanalil",
+      "Correct word": "kandekanal",
+      "Input": "N;AT+ESS;SG(kandekana) V.PTCP;PASS;PST(kasutama) N;NOM;SG(sideteenus)",
+      "Generation": "kandekanalil kasutatud sideteenus",
+      "Correct": "kandekanal kasutatud sideteenus"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;NOM;SG(biometaan)",
+      "Generated word": "biometaani",
+      "Correct word": "biometaan",
+      "Input": "V;ACT;PRS;POS;IMP;2;PL(valima) ADJ;POS;IN+ABL;PL(järgmine) N;IN+ABL;PL(kategooria) N;PRT;PL(rask) N;GEN;SG(kütteõli) ADJ;POS;GEN;SG(kerge) N;GEN;SG(kütteõli) N;NOM;SG(diislikütus) N;GEN;SG(gaasiõli) V.PTCP;PASS;PST(veeldama) N;NOM;SG(maagaas) V.PTCP;PASS;PST(veeldama) N;NOM;SG(naftagaas) N;NOM;SG(butaan) V.PTCP;PASS;PST(veeldama) N;NOM;SG(naftagaas) N;NOM;SG(propaan) N;NOM;SG(vesinik) ADJ;POS;NOM;SG(fossiilne) N;NOM;SG(ammoniaak) ADJ;POS;NOM;SG(fossiilne) N;NOM;SG(metanool) ADJ;POS;NOM;SG(fossiilne) N;NOM;SG(etanool) N;NOM;SG(biodiisel) V.PTCP;PASS;PST(hüdrogeenima) N;GEN;SG(taimeõli) V.PTCP;PASS;PST(veeldama) N;NOM;SG(biometaan) N;FRML;SG(transpordikütus) N;NOM;SG(biometanool) N;NOM;SG(biokütus) N;NOM;SG(biovesinik) ADJ;POS;NOM;SG(mittefossiilne) N;NOM;SG(kütus)",
+      "Generation": "valige järgmistest kategooriatest raske kütteõli kerge kütteõli diislikütus gaasiõli veeldatud maagaas veeldatud naftagaas butaan veeldatud naftagaas propaan vesinik fossiilne ammoniaak fossiilne metanool fossiilne etanool biodiisel hüdrogeenitud taimeõli veeldatud biometaani transpordikütusena biometanool biokütus biovesinik mittefossiilne kütus",
+      "Correct": "valige järgmiseist|järgmisist|järgmistest kategooriaist|kategooriatest raskusid|raske kütteõli kerge|kerke kütteõli diislikütus gaasiõli veeldatud maagaas veeldatud naftagaas butaan veeldatud naftagaas propaan vesinik fossiilne ammoniaak fossiilne metanool fossiilne etanool biodiisel hüdrogeenitud taimeõli veeldatud biometaan transpordikütusena biometanool biokütus biovesinik mittefossiilne kütus"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;NOM;SG(tooteliik)",
+      "Generated word": "tooteliigile",
+      "Correct word": "tooteliik",
+      "Input": "N;NOM;SG(märkus) V;ACT;PRS;POS;IND;1;PL(paluma) N;NOM;SG(tooteliik) N;AT+ALL;SG(rida)",
+      "Generation": "märkus palume tooteliigile reale",
+      "Correct": "märkus palume tooteliik reale"
+    },
+    {
+      "Reason": "Generated word not among alternatives",
+      "Input word": "N;IN+ESS;PL(arvamus)",
+      "Generated word": "arvustustes",
+      "Correct word": "arvamusis|arvamustes",
+      "Input": "ADJ;POS;IN+ESS;PL(tehniline) N;IN+ESS;PL(arvamus) V.PTCP;PASS;PST(avaldama) N;GEN;PL(viga) N;GEN;PL(parandamine) N;NOM;SG(rakendamine) V;ACT;PRS;POS;IMP;2;SG(olema) ADJ;POS;NOM;SG(kohustuslik)",
+      "Generation": "tehnilistes arvustustes avaldatud vigade parandamise rakendamine ole kohustuslik",
+      "Correct": "tehnilistes|tehnilisis arvamusis|arvamustes avaldatud vigade parandamiste rakendamine ole kohustuslik"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;PL(parandamine)",
+      "Generated word": "parandamise",
+      "Correct word": "parandamiste",
+      "Input": "ADJ;POS;IN+ESS;PL(tehniline) N;IN+ESS;PL(arvamus) V.PTCP;PASS;PST(avaldama) N;GEN;PL(viga) N;GEN;PL(parandamine) N;NOM;SG(rakendamine) V;ACT;PRS;POS;IMP;2;SG(olema) ADJ;POS;NOM;SG(kohustuslik)",
+      "Generation": "tehnilistes arvustustes avaldatud vigade parandamise rakendamine ole kohustuslik",
+      "Correct": "tehnilistes|tehnilisis arvamusis|arvamustes avaldatud vigade parandamiste rakendamine ole kohustuslik"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;SG(netorahavoog)",
+      "Generated word": "netorahavoogu",
+      "Correct word": "netorahavoo",
+      "Input": "N;GEN;SG(netorahavoog) N;AT+ESS;SG(puhk) V;ACT;PST;POS;IND;3;SG(olema) N;NOM;SG(suundumus) ADJ;POS;NOM;SG(sarnane) N;GEN;SG(kasumlikkus) N;PRT;SG(aasta) V;ACT;PST;POS;IND;3;SG(iseloomustama) ADJ;POS;NOM;SG(negatiivne) N;NOM;SG(rekord) V;ACT;PST;POS;IND;3;SG(järgnema) ADJ;POS;NOM;SG(järsk) ADJ;POS;NOM;SG(edasine) N;IN+ESS;SG(lang) N;AT+ESS;SG(aasta) ADJ;POS;NOM;SG(märkimisväärne) N;NOM;SG(taastumine) N;AT+ESS;SG(aasta) V;ACT;PST;POS;IND;3;SG(suurenema) N;COM;SG(läbivaatamine) N;AT+ESS;SG(uurimisperiood)",
+      "Generation": "netorahavoogu puhul oli suundumus sarnane kasumlikkuse aastat iseloomustas negatiivne rekord järgnes järsk edasine langus aastal märkimisväärne taastumine aastal suurenes läbivaatamisega uurimisperioodil",
+      "Correct": "netorahavoo puhul oli suundumus sarnane kasumlikkuse aastat iseloomustas negatiivne rekord järgnes järsk edasine langus aastal märkimisväärne taastumine aastal suurenes läbivaatamisega uurimisperioodil"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V;ACT;PST;POS;IND;3;SG(liigituma)",
+      "Generated word": "liitus",
+      "Correct word": "liigitus",
+      "Input": "ADJ;POS;GEN;PL(elektriline) N;GEN;PL(kergsõiduk) N;GEN;SG(laadimistaristu) N;GEN;PL(laadimisjaam) N;NOM;SG(arv) N;NOM;SG(väljundvõimsus) N;GEN;PL(laadimisjaam) V;ACT;PST;POS;IND;3;SG(liigituma) N;IN+ESS;SG(kooskõla) N;COM;SG(lisa)",
+      "Generation": "elektriliste kergsõidukite laadimistaristu laadimisjaamade arv väljundvõimsus laadimisjaamade liitus kooskõlas lisaga",
+      "Correct": "elektriliste kergsõidukite laadimistaristu laadimisjaamade arv väljundvõimsus laadimisjaamade liigitus kooskõlas lisaga"
+    },
+    {
+      "Reason": "Generated word not among alternatives",
+      "Input word": "N;PRT;PL(kuu)",
+      "Generated word": "kuidest",
+      "Correct word": "kuid|kuusid",
+      "Input": "V;ACT;PRS;POS;IND;3;SG(olema) ADJ;POS;AT+ABL;SG(osaline) V.PTCP;PASS;PST(asendama) N;IN+ABL;SG(mass) N;PRT;PL(kuu) N;IN+ABL;SG(mass)",
+      "Generation": "on osaliselt asendatud massist kuidest massist",
+      "Correct": "on osaliselt asendatud massist kuid|kuusid massist"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;NOM;SG(punkt)",
+      "Generated word": "punkti",
+      "Correct word": "punkt",
+      "Input": "N;IN+ALL;SG(gramm) N;NOM;SG(punkt) N;IN+ESS;SG(lahk) N;IN+ESS;SG(metanool) N;NOM;SG(punkt)",
+      "Generation": "grammi punkti lahus metanoolis punkt",
+      "Correct": "grammi|grammisse punkt lahus metanoolis punkt"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;NOM;SG(punkt)",
+      "Generated word": "punkti",
+      "Correct word": "punkt",
+      "Input": "V;PASS;PRS;POS;IND(selitama) N;COM;PL(lahus) N;NOM;SG(punkt) N;NOM;SG(punkt) N;IN+ALL;SG(punkt) ADJ;POS;AT+ABL;SG(kohane)",
+      "Generation": "selitatakse lahustega punkt punkti punkti kohaselt",
+      "Correct": "selitatakse lahustega punkt punkt punktisse|punkti kohaselt"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "ADJ;POS;AT+ABL;SG(konkreetne)",
+      "Generated word": "konkreetset",
+      "Correct word": "konkreetselt",
+      "Input": "ADJ;POS;GEN;PL(uus) N;GEN;PL(materjal) N;GEN;SG(tööstus) N;GEN;SG(areng) N;IN+ESS;SG(viisaastakukava) V;ACT;PRS;POS;IND;3;SG(olema) ADJ;POS;AT+ABL;SG(konkreetne) V.PTCP;PASS;PST(osutama) ADJ;POS;AT+ALL;PL(kõrgtehnoloogiline) N;AT+ALL;PL(kiud) ADJ;POS;GEN;PL(uus) N;GEN;PL(materjal) N;NOM;SG(tööstusklaster) N;GEN;SG(majandusareng) N;AT+ALL;SG(piirkond) ADJ;POS;AT+ALL;PL(kõrgtehnoloogiline) N;AT+ALL;PL(kiud) N;AT+ALL;PL(komposiitmaterjal) N;IN+ESS;PL(aku) N;IN+ESS;PL(patarei) ADJ;POS;AT+ALL;PL(kasutatav) ADJ;POS;AT+ALL;PL(kõrgtehnoloogiline) N;AT+ALL;PL(materjal) ADJ;POS;AT+ALL;PL(uus) ADJ;POS;AT+ALL;PL(kõrgtehnoloogiline) N;AT+ALL;PL(materjal) N;AT+ALL;PL(allvaldkond) ADJ;POS;GEN;PL(kõrgtehnoloogiline) N;GEN;PL(klaaskiud) N;GEN;PL(komposiitmaterjal) N;NOM;PL(tööstusahel) N;IN+ESS;PL(aku) N;IN+ESS;PL(patarei) ADJ;POS;GEN;PL(kasutatav) ADJ;POS;GEN;PL(kõrgtehnoloogiline) N;GEN;PL(materjal) N;GEN;SG(tootmisahel) ADJ;POS;GEN;SG(järgnev) N;GEN;SG(etapp) N;GEN;PL(toode) N;NOM;SG(tööstusahel) N;PRT;SG(väärtusahel)",
+      "Generation": "uute materjalide tööstuse arengu viisaastakukavas on konkreetset osutatud kõrgtehnoloogilistele kiududele uute materjalide tööstusklaster majandusarengu piirkonnale kõrgtehnoloogilistele kiududele komposiitmaterjalidele akudes patareides kasutatavatele kõrgtehnoloogilistele materjalidele uutele kõrgtehnoloogilistele materjalidele allvaldkondadele kõrgtehnoloogiliste klaaskiudude komposiitmaterjalide tööstusahelad akudes patareides kasutatavate kõrgtehnoloogiliste materjalide tootmisahela järgneva etapi toodete tööstusahel väärtusahelat",
+      "Correct": "uute materjalide tööstuse arengu viisaastakukavas on konkreetselt osutatud kõrgtehnoloogilisile|kõrgtehnoloogilistele kiududele uute materjalide tööstusklaster majandusarengu piirkonnale kõrgtehnoloogilisile|kõrgtehnoloogilistele kiududele komposiitmaterjalidele|komposiitmaterjalele akudes patareides kasutatavatele|kasutatavaile kõrgtehnoloogilisile|kõrgtehnoloogilistele materjalidele|materjalele uusile|uutele kõrgtehnoloogilisile|kõrgtehnoloogilistele materjalidele|materjalele allvaldkondadele|allvaldkonnile kõrgtehnoloogiliste klaaskiudude komposiitmaterjalide tööstusahelad akudes patareides kasutatavate kõrgtehnoloogiliste materjalide tootmisahela järgneva etapi toodete tööstusahel väärtusahelat"
+    }
+  ],
+  "856": [
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;PL(väärisese)",
+      "Generated word": "vääriseseste",
+      "Correct word": "väärisesemete",
+      "Input": "N;GEN;PL(varu) V;ACT;PST;POS;IND;3;SG(muutuma) N;GEN;PL(väärisese) N;NOM;SG(soetamine) N;NOM;SG(miinus) N;NOM;SG(realiseerimine)",
+      "Generation": "varude muutus vääriseseste soetamine miinus realiseerimine",
+      "Correct": "varude muutus väärisesemete soetamine miinus realiseerimine"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V.PTCP;PASS;PST(kerima)",
+      "Generated word": "keeratud",
+      "Correct word": "keritud",
+      "Input": "ADJ;POS;NOM;SG(uurimisalune) N;NOM;SG(toode) V;ACT;PRS;POS;IND;3;SG(olema) V.PTCP;ACT;PRS(tugema) N;NOM;SG(polüesterlõng) V;ACT;PRS;POS;IND;3;SG(olema) N;TRANS;SG(jaemüük) N;NOM;SG(monofilament) N;COM;SG(joontihedus) V.PTCP;PASS;PST(arvama) N;NOM;SG(õmblusniit) ADJ;POS;NOM;SG(mitmekordne) V.PTCP;PASS;PST(korrutama) N;NOM;SG(komplekslõng) V;ACT;PRS;POS;IND;3;SG(olema) V.PTCP;PASS;PST(nägema) N;GEN;SG(õmblusniit) N;TRANS;SG(tootmine) N;IN+ESS;SG(valm) N;TRANS;SG(värvimine) N;TRANS;SG(viimistlemine) ADJ;POS;AT+ABL;SG(lõtv) V.PTCP;PASS;PST(kerima) V.PTCP;PASS;PST(augustama) N;AT+ALL;PL(plastpool) V;ACT;PRS;POS;IND;3;SG(kuuluma) N;NOM;SG(kood) ADJ;POS;NOM;SG(uurimisalune) N;NOM;SG(toode)",
+      "Generation": "uurimisalune toode on tugev polüesterlõng on jaemüügiks monofilament joontihedusega arvatud õmblusniit mitmekordne korrutatud komplekslõng on nähtud õmblusniidi tootmiseks valmis värvimiseks viimistlemiseks lõdvalt keeratud augustatud plastpoolidele kuulub kood uurimisalune toode",
+      "Correct": "uurimisalune toode on tugev polüesterlõng on jaemüügiks monofilament joontihedusega arvatud õmblusniit mitmekordne korrutatud komplekslõng on nähtud õmblusniidi|õmblusniidu tootmiseks valmis värvimiseks viimistlemiseks lõdvalt keritud augustatud plastpooltele|plastpoolidele|plastpoolile kuulub kood uurimisalune toode"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;IN+ESS;SG(populg)",
+      "Generated word": "populas",
+      "Correct word": "populus",
+      "Input": "ADJ;POS;NOM;SG(välimine) N;NOM;SG(kiht) V;ACT;PRS;POS;IND;3;SG(olema) N;IN+ABL;SG(lehtpuit) N;IN+ABL;PL(liik) N;NOM;SG(lepp) N;NOM;SG(saar) N;NOM;SG(pöök) N;NOM;SG(kask) N;GEN;SG(kirsipuu) N;GEN;SG(kastanipuu) N;NOM;SG(jalakas) N;NOM;SG(eukalüpt) N;NOM;SG(hobukastan) N;NOM;SG(pärn) N;NOM;SG(vaher) N;NOM;SG(tamm) N;NOM;SG(plaatan) N;NOM;SG(pappel) N;NOM;SG(haab) N;IN+ESS;SG(populg) N;GEN;SG(robiinia) N;GEN;SG(ebaakaatsia) N;GEN;SG(tulbipuu) N;GEN;SG(või) N;GEN;SG(pähklipuu)",
+      "Generation": "välimine kiht on lehtpuidust liikidest lepp saar pöök kask kirsipuu kastanipuu jalakas eukalüpt hobukastan pärn vaher tamm plaatan pappel haab populas robiinia ebaakaatsia tulbipuu või pähklipuu",
+      "Correct": "välimine kiht on lehtpuidust liikidest|liikudest lepp saar pöök kask kirsipuu kastanipuu jalakas eukalüpt hobukastan pärn vaher tamm plaatan pappel haab populus robiinia ebaakaatsia tulbipuu või pähklipuu"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;SG(terviseteave)",
+      "Generated word": "tervisteabe",
+      "Correct word": "terviseteabe",
+      "Input": "N;GEN;PL(meditsiiniregister) N;GEN;SG(või) N;GEN;SG(terviseteave) N;GEN;SG(keskaste) N;NOM;SG(spetsialist)",
+      "Generation": "meditsiiniregistrite või tervisteabe keskaste spetsialist",
+      "Correct": "meditsiiniregistrite või terviseteabe keskastme spetsialist"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;SG(keskaste)",
+      "Generated word": "keskaste",
+      "Correct word": "keskastme",
+      "Input": "N;GEN;PL(meditsiiniregister) N;GEN;SG(või) N;GEN;SG(terviseteave) N;GEN;SG(keskaste) N;NOM;SG(spetsialist)",
+      "Generation": "meditsiiniregistrite või tervisteabe keskaste spetsialist",
+      "Correct": "meditsiiniregistrite või terviseteabe keskastme spetsialist"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V;ACT;PST;POS;IND;3;SG(kapsama)",
+      "Generated word": "kapsama",
+      "Correct word": "kapsas",
+      "Input": "N;NOM;SG(kapsas) N;NOM;SG(lillkapsas) N;NOM;SG(nuikapsas) N;NOM;SG(lehtkapsas) V.PTCP;PASS;PRS(sööma) V;ACT;PST;POS;IND;3;SG(kapsama) N;IN+ABL;SG(perekond) ADJ;POS;GEN;SG(värske) N;GEN;SG(või) V.PTCP;PASS;PST(jahutama)",
+      "Generation": "kapsas lillkapsas nuikapsas lehtkapsas söödav kapsama perekonnast värske või jahutatud",
+      "Correct": "kapsas lillkapsas nuikapsas lehtkapsas söödav kapsas perekonnast värske või jahutatud"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "ADJ;POS;AT+ABL;SG(hõre)",
+      "Generated word": "hõrelt",
+      "Correct word": "hõredalt",
+      "Input": "N;GEN;SG(internet) N;NOM;SG(kättesaadavus) N;GEN;SG(liit) ADJ;POS;AT+ABL;SG(hõre) V.PTCP;PASS;PST(asustama) N;IN+ESS;PL(piirkond) V;ACT;PRS;POS;IND;3;SG(võima) ADJ;CMPR;NOM;SG(väike)",
+      "Generation": "interneti kättesaadavus liidu hõrelt asustatud piirkondades võib väiksem",
+      "Correct": "interneti kättesaadavus liidu hõredalt asustatud piirkonnis|piirkondades võib väiksem"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;PRT;PL(nitrit)",
+      "Generated word": "nitrite",
+      "Correct word": "nitriteid",
+      "Input": "V;ACT;PST;POS;IND;3;SG(võtma) N;NOM;SG(komisjon) N;IN+ALL;SG(koht) N;IN+ESS;SG(tööstus) V;PASS;PRS;POS;IND(kasutama) N;PRT;PL(nitrit) N;GEN;PL(lihatootekategooria) N;AT+ESS;SG(puhk)",
+      "Generation": "võttis komisjon kohta tööstuses kasutatakse nitrite lihatootekategooriate puhul",
+      "Correct": "võttis komisjon kohasse|kohta tööstuses kasutatakse nitriteid lihatootekategooriate puhul"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;PRT;PL(esi)",
+      "Generated word": "esisid",
+      "Correct word": "esi",
+      "Input": "N;IN+ESS;SG(liit) ADJ;POS;GEN;SG(antav) ADJ;POS;GEN;SG(erakorraline) N;GEN;SG(toetus) N;NOM;SG(vahend) N;PRT;PL(esi)",
+      "Generation": "liidus antava erakorralise toetuse vahend esisid",
+      "Correct": "liidus antava erakorralise toetuse vahend esi"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "ADJ;POS;PRT;PL(koguseline)",
+      "Generated word": "koguslikke",
+      "Correct word": "koguselisi",
+      "Input": "V;PASS;PRS;POS;IND(kehtestama) N;IN+ALL;SG(kohaldamisala) ADJ;POS;IN+ABL;PL(kuuluv) N;IN+ABL;PL(tegevus) ADJ;POS;AT+ALL;SG(tulenev) N;GEN;PL(kasvuhoonegaas) N;AT+ALL;SG(heitkogus) N;IN+ESS;PL(raam) ADJ;POS;GEN;PL(eraldatav) N;NOM;SG(koguarv) N;NOM;SG(ülempiir) V;PASS;PRS;POS;IND(võimaldama) V;ACT;PRS;POS;COND;3;SG(tohtima) N;AT+ALL;SG(import) ADJ;POS;PRT;PL(koguseline) N;PRT;PL(piirang) N;PRT;PL(kaubavoog) V;PASS;PRS;POS;COND(piirama)",
+      "Generation": "kehtestatakse kohaldamisalasse kuuluvatest tegevustest tulenevale kasvuhoonegaaside heitkogusele raames eraldatavate koguarv ülempiir võimaldatakse tohiks impordile koguslikke piiranguid kaubavoogusid piirataks",
+      "Correct": "kehtestatakse kohaldamisalasse kuuluvatest|kuuluvaist tegevusist|tegevustest tulenevale kasvuhoonegaaside heitkogusele raamides|raames eraldatavate koguarv ülempiir võimaldatakse tohiks impordile koguselisi piiranguid kaubavoogusid|kaubavooge piirataks"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;SG(soojustoode)",
+      "Generated word": "soojustooted",
+      "Correct word": "soojustoote",
+      "Input": "N;GEN;SG(soojustoode) N;NOM;SG(tüüp)",
+      "Generation": "soojustooted tüüp",
+      "Correct": "soojustoote tüüp"
+    },
+    {
+      "Reason": "Generated word not among alternatives",
+      "Input word": "N;IN+ALL;SG(põhi)",
+      "Generated word": "põhi",
+      "Correct word": "põhja|põhjasse",
+      "Input": "N;IN+ALL;SG(klaaskolonn) N;NOM;SG(punkt) N;IN+ALL;SG(põhi) V;PASS;PRS;POS;IND(asetama) ADJ;POS;NOM;SG(väike) ADJ;POS;PRT;SG(klaasvatine) N;NOM;SG(tropp) V;PASS;PRS;POS;IND(suruma) N;IN+ALL;SG(klaaspulk)",
+      "Generation": "klaaskolonni punkt põhi asetatakse väike klaasvatist tropp surutakse klaaspulka",
+      "Correct": "klaaskolonni|klaaskolonnisse punkt põhja|põhjasse asetatakse väike klaasvatist tropp surutakse klaaspulka|klaaspulgasse"
+    },
+    {
+      "Reason": "Generated word not among alternatives",
+      "Input word": "N;PRT;PL(lään)",
+      "Generated word": "lääni",
+      "Correct word": "lääne|läänisid",
+      "Input": "N;PRT;PL(lään)",
+      "Generation": "lääni",
+      "Correct": "lääne|läänisid"
+    },
+    {
+      "Reason": "Generated word not among alternatives",
+      "Input word": "N;IN+ALL;SG(ülejääk)",
+      "Generated word": "ülejääku",
+      "Correct word": "ülejääki|ülejäägisse",
+      "Input": "ADJ;POS;NOM;SG(saadaolev) ADJ;POS;NOM;SG(majanduslik) N;GEN;SG(kasu) V;ACT;PRS;POS;IMP;2;SG(sõltuma) N;NOM;SG(üksus) V;ACT;PRS;POS;IND;3;SG(kavatsema) N;IN+ALL;SG(ülejääk)",
+      "Generation": "saadaolev majanduslik kasu sõltu üksus kavatseb ülejääku",
+      "Correct": "saadaolev majanduslik kasu sõltu üksus kavatseb ülejääki|ülejäägisse"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;NOM;SG(alajaos)",
+      "Generated word": "alajaotis",
+      "Correct word": "alajaos",
+      "Input": "ADJ;POS;IN+ESS;SG(käesolev) N;NOM;SG(alajaos) ADJ;POS;GEN;SG(käesolev) N;GEN;SG(peatükk) N;NOM;SG(jaos) N;GEN;PL(investeering) N;NOM;SG(liberaliseerimine) N;NOM;SG(jaos) ADJ;POS;NOM;SG(piiriülene) N;NOM;SG(teenustekaubandus) N;NOM;SG(jaos) ADJ;POS;GEN;PL(füüsiline) N;GEN;PL(isik) ADJ;POS;AT+ESS;SG(äriline) N;AT+ESS;SG(eesmärk) N;NOM;SG(sisenemine) ADJ;POS;NOM;SG(ajutine) N;NOM;SG(viibimine) N;GEN;SG(jagu) ADJ;POS;NOM;SG(reguleeriv) N;NOM;SG(raamistik) N;NOM;SG(alajaos) ADJ;POS;NOM;SG(siseriiklik) N;NOM;SG(reguleerimine) V;PASS;PRS;POS;IND(kasutama) ADJ;POS;PRT;PL(järgmine) N;PRT;PL(mõiste)",
+      "Generation": "käesolevas alajaotis käesoleva peatüki jaotis investeeringute liberaliseerimine jaotis piiriülene teenustekaubandus jaotis füüsiliste isikute ärilisel eesmärgil sisenemine ajutine viibimine jao reguleeriv raamistik alajaotis siseriiklik reguleerimine kasutatakse järgmisi mõisteid",
+      "Correct": "käesolevas alajaos käesoleva peatüki jaos investeeringute liberaliseerimine jaos piiriülene teenustekaubandus jaos füüsiliste isikute ärilisel eesmärgil sisenemine ajutine viibimine jao reguleeriv raamistik alajaos siseriiklik reguleerimine kasutatakse järgmiseid|järgmisi mõisteid"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;NOM;SG(jaos)",
+      "Generated word": "jaotis",
+      "Correct word": "jaos",
+      "Input": "ADJ;POS;IN+ESS;SG(käesolev) N;NOM;SG(alajaos) ADJ;POS;GEN;SG(käesolev) N;GEN;SG(peatükk) N;NOM;SG(jaos) N;GEN;PL(investeering) N;NOM;SG(liberaliseerimine) N;NOM;SG(jaos) ADJ;POS;NOM;SG(piiriülene) N;NOM;SG(teenustekaubandus) N;NOM;SG(jaos) ADJ;POS;GEN;PL(füüsiline) N;GEN;PL(isik) ADJ;POS;AT+ESS;SG(äriline) N;AT+ESS;SG(eesmärk) N;NOM;SG(sisenemine) ADJ;POS;NOM;SG(ajutine) N;NOM;SG(viibimine) N;GEN;SG(jagu) ADJ;POS;NOM;SG(reguleeriv) N;NOM;SG(raamistik) N;NOM;SG(alajaos) ADJ;POS;NOM;SG(siseriiklik) N;NOM;SG(reguleerimine) V;PASS;PRS;POS;IND(kasutama) ADJ;POS;PRT;PL(järgmine) N;PRT;PL(mõiste)",
+      "Generation": "käesolevas alajaotis käesoleva peatüki jaotis investeeringute liberaliseerimine jaotis piiriülene teenustekaubandus jaotis füüsiliste isikute ärilisel eesmärgil sisenemine ajutine viibimine jao reguleeriv raamistik alajaotis siseriiklik reguleerimine kasutatakse järgmisi mõisteid",
+      "Correct": "käesolevas alajaos käesoleva peatüki jaos investeeringute liberaliseerimine jaos piiriülene teenustekaubandus jaos füüsiliste isikute ärilisel eesmärgil sisenemine ajutine viibimine jao reguleeriv raamistik alajaos siseriiklik reguleerimine kasutatakse järgmiseid|järgmisi mõisteid"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;NOM;SG(jaos)",
+      "Generated word": "jaotis",
+      "Correct word": "jaos",
+      "Input": "ADJ;POS;IN+ESS;SG(käesolev) N;NOM;SG(alajaos) ADJ;POS;GEN;SG(käesolev) N;GEN;SG(peatükk) N;NOM;SG(jaos) N;GEN;PL(investeering) N;NOM;SG(liberaliseerimine) N;NOM;SG(jaos) ADJ;POS;NOM;SG(piiriülene) N;NOM;SG(teenustekaubandus) N;NOM;SG(jaos) ADJ;POS;GEN;PL(füüsiline) N;GEN;PL(isik) ADJ;POS;AT+ESS;SG(äriline) N;AT+ESS;SG(eesmärk) N;NOM;SG(sisenemine) ADJ;POS;NOM;SG(ajutine) N;NOM;SG(viibimine) N;GEN;SG(jagu) ADJ;POS;NOM;SG(reguleeriv) N;NOM;SG(raamistik) N;NOM;SG(alajaos) ADJ;POS;NOM;SG(siseriiklik) N;NOM;SG(reguleerimine) V;PASS;PRS;POS;IND(kasutama) ADJ;POS;PRT;PL(järgmine) N;PRT;PL(mõiste)",
+      "Generation": "käesolevas alajaotis käesoleva peatüki jaotis investeeringute liberaliseerimine jaotis piiriülene teenustekaubandus jaotis füüsiliste isikute ärilisel eesmärgil sisenemine ajutine viibimine jao reguleeriv raamistik alajaotis siseriiklik reguleerimine kasutatakse järgmisi mõisteid",
+      "Correct": "käesolevas alajaos käesoleva peatüki jaos investeeringute liberaliseerimine jaos piiriülene teenustekaubandus jaos füüsiliste isikute ärilisel eesmärgil sisenemine ajutine viibimine jao reguleeriv raamistik alajaos siseriiklik reguleerimine kasutatakse järgmiseid|järgmisi mõisteid"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;NOM;SG(jaos)",
+      "Generated word": "jaotis",
+      "Correct word": "jaos",
+      "Input": "ADJ;POS;IN+ESS;SG(käesolev) N;NOM;SG(alajaos) ADJ;POS;GEN;SG(käesolev) N;GEN;SG(peatükk) N;NOM;SG(jaos) N;GEN;PL(investeering) N;NOM;SG(liberaliseerimine) N;NOM;SG(jaos) ADJ;POS;NOM;SG(piiriülene) N;NOM;SG(teenustekaubandus) N;NOM;SG(jaos) ADJ;POS;GEN;PL(füüsiline) N;GEN;PL(isik) ADJ;POS;AT+ESS;SG(äriline) N;AT+ESS;SG(eesmärk) N;NOM;SG(sisenemine) ADJ;POS;NOM;SG(ajutine) N;NOM;SG(viibimine) N;GEN;SG(jagu) ADJ;POS;NOM;SG(reguleeriv) N;NOM;SG(raamistik) N;NOM;SG(alajaos) ADJ;POS;NOM;SG(siseriiklik) N;NOM;SG(reguleerimine) V;PASS;PRS;POS;IND(kasutama) ADJ;POS;PRT;PL(järgmine) N;PRT;PL(mõiste)",
+      "Generation": "käesolevas alajaotis käesoleva peatüki jaotis investeeringute liberaliseerimine jaotis piiriülene teenustekaubandus jaotis füüsiliste isikute ärilisel eesmärgil sisenemine ajutine viibimine jao reguleeriv raamistik alajaotis siseriiklik reguleerimine kasutatakse järgmisi mõisteid",
+      "Correct": "käesolevas alajaos käesoleva peatüki jaos investeeringute liberaliseerimine jaos piiriülene teenustekaubandus jaos füüsiliste isikute ärilisel eesmärgil sisenemine ajutine viibimine jao reguleeriv raamistik alajaos siseriiklik reguleerimine kasutatakse järgmiseid|järgmisi mõisteid"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;NOM;SG(alajaos)",
+      "Generated word": "alajaotis",
+      "Correct word": "alajaos",
+      "Input": "ADJ;POS;IN+ESS;SG(käesolev) N;NOM;SG(alajaos) ADJ;POS;GEN;SG(käesolev) N;GEN;SG(peatükk) N;NOM;SG(jaos) N;GEN;PL(investeering) N;NOM;SG(liberaliseerimine) N;NOM;SG(jaos) ADJ;POS;NOM;SG(piiriülene) N;NOM;SG(teenustekaubandus) N;NOM;SG(jaos) ADJ;POS;GEN;PL(füüsiline) N;GEN;PL(isik) ADJ;POS;AT+ESS;SG(äriline) N;AT+ESS;SG(eesmärk) N;NOM;SG(sisenemine) ADJ;POS;NOM;SG(ajutine) N;NOM;SG(viibimine) N;GEN;SG(jagu) ADJ;POS;NOM;SG(reguleeriv) N;NOM;SG(raamistik) N;NOM;SG(alajaos) ADJ;POS;NOM;SG(siseriiklik) N;NOM;SG(reguleerimine) V;PASS;PRS;POS;IND(kasutama) ADJ;POS;PRT;PL(järgmine) N;PRT;PL(mõiste)",
+      "Generation": "käesolevas alajaotis käesoleva peatüki jaotis investeeringute liberaliseerimine jaotis piiriülene teenustekaubandus jaotis füüsiliste isikute ärilisel eesmärgil sisenemine ajutine viibimine jao reguleeriv raamistik alajaotis siseriiklik reguleerimine kasutatakse järgmisi mõisteid",
+      "Correct": "käesolevas alajaos käesoleva peatüki jaos investeeringute liberaliseerimine jaos piiriülene teenustekaubandus jaos füüsiliste isikute ärilisel eesmärgil sisenemine ajutine viibimine jao reguleeriv raamistik alajaos siseriiklik reguleerimine kasutatakse järgmiseid|järgmisi mõisteid"
+    },
+    {
+      "Reason": "Difference in the number of words",
+      "Number of words generated": 26,
+      "Number of correct words": 34,
+      "Input": "V;ACT;PRS;POS;IND;3;SG(olema) V.PTCP;PASS;PST(ütlema) N;IN+ESS;SG(algatamisteade) V;ACT;PST;POS;IND;3;SG(leidma) N;NOM;SG(komisjon) ADJ;POS;IN+ESS;SG(esialgne) N;IN+ESS;SG(etapp) N;GEN;SG(alusmäärus) N;GEN;SG(artikkel) N;PRT;PL(lõik) ADJ;POS;AT+ABL;SG(kohane) V;ACT;PST;POS;IND;3;SG(olema) ADJ;POS;AT+ABL;SG(piisav) N;PRT;PL(tõend) V;ACT;PST;POS;IND;3;PL(osutama) N;PRT;PL(hind) N;PRT;PL(kulu) ADJ;POS;GEN;PL(mõjutav) ADJ;POS;GEN;PL(oluline) N;GEN;PL(moonutus) N;IN+ALL;SG(tõtt) V;ACT;PRS;POS;COND;3;SG(olema) ADJ;POS;NOM;SG(kohane) ADJ;POS;PRT;PL(omamaine) N;PRT;PL(hind) N;PRT;PL(kulu) V;ACT;PST;POS;IND;3;SG(olema) N;GEN;SG(uurimine) N;NOM;SG(algatamine) N;GEN;SG(alusmäärus) N;GEN;SG(artikkel) N;PRT;PL(lõik) ADJ;POS;AT+ABL;SG(kohane) V.PTCP;PASS;PST(põhjendama)",
+      "Generation": "on öeldud algatamisteates leidis komisjon esialgses etapis alusmääruse artikli lõike kohaselt oli piisavalt tõendeid osutasid hindu kulusid mõjutavate oluliste moonutuste tõttu oleks kohane omamaisi hindu kulusid",
+      "Correct": "on üteldud|öeldud algatamisteates|algatamisteatmes leidis komisjon esialgses etapis alusmääruse artikli lõikusid|lõike kohaselt oli piisavalt tõendeid osutasid hindasid|hindu kulusid mõjutavate oluliste moonutuste tõtusse|tõttu oleks kohane omamaiseid hindasid|hindu kulusid oli uurimise algatamine alusmääruse artikli lõikusid|lõike kohaselt põhjendatud"
+    },
+    {
+      "Reason": "Generated word not among alternatives",
+      "Input word": "ADJ;POS;PRT;PL(vaba)",
+      "Generated word": "vabas",
+      "Correct word": "vabu|vabasid",
+      "Input": "N;AT+ESS;SG(lõhustamine) V.PTCP;PASS;PST(saama) N;PRT;PL(rasvhape) ADJ;POS;PRT;PL(vaba) N;COM;SG(esterside)",
+      "Generation": "lõhustamisel saadud rasvhappeid vabas estersidega",
+      "Correct": "lõhustamisel saadud rasvhappeid vabu|vabasid estersidega|estersidemega"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "ADJ;POS;NOM;SG(autentne)",
+      "Generated word": "autentsed",
+      "Correct word": "autentne",
+      "Input": "ADJ;POS;NOM;SG(käesolev) N;NOM;SG(otsus) V;ACT;PRS;POS;IND;3;SG(olema) ADJ;POS;NOM;SG(autentne) N;IN+ESS;SG(keel) V;ACT;PRS;POS;IND;3;SG(jõustuma) N;AT+ESS;SG(juuli)",
+      "Generation": "käesolev otsus on autentsed keeles jõustub juulil",
+      "Correct": "käesolev otsus on autentne keeles jõustub juulil"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;NOM;SG(liide)",
+      "Generated word": "liit",
+      "Correct word": "liide",
+      "Input": "N;NOM;SG(liide) V;PASS;PRS;POS;IND(asendama)",
+      "Generation": "liit asendatakse",
+      "Correct": "liide asendatakse"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;COM;SG(ühishuvi)",
+      "Generated word": "ühishuvi",
+      "Correct word": "ühishuviga",
+      "Input": "V;ACT;PST;POS;IND;3;SG(olema) N;GEN;SG(kuningriik) N;NOM;SG(sekkumine) N;IN+ESS;SG(kooskõla) N;COM;SG(ühishuvi)",
+      "Generation": "oli kuningriigi sekkumine kooskõlas ühishuvi",
+      "Correct": "oli kuningriigi sekkumine kooskõlas ühishuviga"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V;PASS;PST;POS;IND(katsetama)",
+      "Generated word": "testiti",
+      "Correct word": "katsetati",
+      "Input": "N;NOM;SG(mudel) V;PASS;PRS;POS;IND(lugema) ADJ;POS;AT+ALL;PL(kohaldatav) N;AT+ALL;PL(nõue) ADJ;POS;TRANS;SG(vastav) N;GEN;SG(seade) N;AT+ESS;SG(puhk) V;PASS;PST;POS;IND(katsetama) N;IN+ALL;SG(punkt) ADJ;POS;AT+ABL;SG(kohane) V;ACT;PRS;POS;IND;3;SG(olema) ADJ;POS;NOM;SG(asjakohane) V;ACT;PRS;POS;IND;3;SG(vastama) V.PTCP;PASS;PST(määrama) N;GEN;PL(väärtus) ADJ;POS;NOM;SG(aritmeetiline) ADJ;POS;NOM;SG(keskmine) N;IN+ESS;SG(tabel) V.PTCP;PASS;PST(esitama) ADJ;POS;AT+ALL;PL(vastav) V.PTCP;PASS;PST(lubama) N;AT+ALL;PL(hälve) V.PTCP;PASS;PST(arvama) N;GEN;SG(parandatavus) N;GEN;SG(indeks) N;NOM;SG(tulemus) N;AT+ESS;SG(puhk) V;PASS;PRS;POS;IND(lugema) N;NOM;SG(mudel) ADJ;POS;AT+ALL;PL(kohaldatav) N;AT+ALL;PL(nõue) ADJ;POS;TRANS;SG(vastav) V.PTCP;PASS;PST(määrama) N;NOM;SG(väärtus) V;ACT;PRS;POS;IND;3;SG(vastama) N;IN+ESS;SG(tabel) V.PTCP;PASS;PST(esitama) V.PTCP;PASS;PST(lubama) N;AT+ALL;SG(hälve)",
+      "Generation": "mudel loetakse kohaldatavatele nõuetele vastavaks seade puhul testiti punkti kohaselt on asjakohane vastab määratud väärtuste aritmeetiline keskmine tabelis esitatud vastavatele lubatud hälvetele arvatud parandatavuse indeksi tulemus puhul loetakse mudel kohaldatavatele nõuetele vastavaks määratud väärtus vastab tabelis esitatud lubatud hälbele",
+      "Correct": "mudel loetakse kohaldatavaile|kohaldatavatele nõudeile|nõuetele vastavaks seade|seadme puhul katsetati punktisse|punkti kohaselt on asjakohane vastab määratud väärtuste aritmeetiline keskmine tabelis esitatud vastavaile|vastavatele lubatud hälvetele|hälbeile arvatud parandatavuse indeksi tulemus puhul loetakse mudel kohaldatavaile|kohaldatavatele nõudeile|nõuetele vastavaks määratud väärtus vastab tabelis esitatud lubatud hälbele"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;COM;PL(vesi)",
+      "Generated word": "vesi(tega)",
+      "Correct word": "vetega",
+      "Input": "N;PRT;PL(uuring) V;ACT;PRS;POS;COND;3;SG(olema) ADJ;POS;NOM;SG(võimalik) ADJ;POS;AT+ALL;SG(lõpp) N;NOM;SG(põhimõtteühtlus) N;GEN;SG(loodepiirkond) N;COM;PL(vesi) N;IN+ESS;PL(põhjendus) V.PTCP;PASS;PST(esitama) N;AT+ESS;PL(põhjus) V;ACT;PRS;POS;IND;3;SG(leidma) N;NOM;SG(komisjon) V.PTCP;PASS;PST(taotlema) N;NOM;SG(erand) V;ACT;PRS;POS;COND;3;SG(tulema) N;IN+ABL;SG(jaanuar) N;TERM;SG(detsember)",
+      "Generation": "uuringuid oleks võimalik lõpule põhimõtteühtlus loodepiirkonna vesi(tega) põhjendustes esitatud põhjustel leiab komisjon taotletud erand tuleks jaanuarist detsembrini",
+      "Correct": "uuringuid oleks võimalik lõpule põhimõtteühtlus loodepiirkonna vetega põhjendusis|põhjendustes esitatud põhjusil|põhjuseil|põhjustel leiab komisjon taotletud erand tuleks jaanuarist detsembrini"
+    },
+    {
+      "Reason": "Generated word not among alternatives",
+      "Input word": "N;IN+ALL;SG(määrus)",
+      "Generated word": "määruse",
+      "Correct word": "määrusesse|määrusse",
+      "Input": "ADJ;POS;GEN;PL(indeksipõhine) N;GEN;PL(osalus) N;IN+ALL;SG(koht) V;PASS;PST;POS;IND(lisama) N;COM;SG(määrus) N;IN+ALL;SG(määrus) N;NOM;SG(artikkel)",
+      "Generation": "indeksipõhiste osaluste kohta lisati määrusega määruse artikkel",
+      "Correct": "indeksipõhiste osaluste kohasse|kohta lisati määrusega määrusesse|määrusse artikkel"
+    },
+    {
+      "Reason": "Generated word not among alternatives",
+      "Input word": "N;PRT;PL(litsents)",
+      "Generated word": "litsentsi",
+      "Correct word": "litsentsisid|litsentse",
+      "Input": "N;PRT;PL(litsents) V.PTCP;ACT;PRS(väljastama) N;NOM;SG(asutus)",
+      "Generation": "litsentsi väljastav asutus",
+      "Correct": "litsentsisid|litsentse väljastav asutus"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;AT+ALL;SG(seotus)",
+      "Generated word": "seotususele",
+      "Correct word": "seotusele",
+      "Input": "N;NOM;SG(kirjeldus) N;NOM;SG(üksus) V;ACT;PRS;POS;IND;3;SG(juhtima) N;IN+ALL;SG(risk) V;ACT;PRS;POS;IND;3;SG(olema) ADJ;POS;NOM;SG(iseloomulik) ADJ;POS;AT+ALL;SG(jätkuv) N;AT+ALL;SG(seotus) N;COM;SG(finantsvara) N;NOM;SG(kajastamine) V;ACT;PRS;POS;IND;3;SG(olema) V.PTCP;PASS;PST(lõpetama)",
+      "Generation": "kirjeldus üksus juhib riski on iseloomulik jätkuvale seotususele finantsvaraga kajastamine on lõpetatud",
+      "Correct": "kirjeldus üksus juhib riski|riskisse on iseloomulik jätkuvale seotusele finantsvaraga kajastamine on lõpetatud"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;IN+ABL;SG(kits)",
+      "Generated word": "kitsist",
+      "Correct word": "kitsest",
+      "Input": "N;IN+ABL;SG(kits)",
+      "Generation": "kitsist",
+      "Correct": "kitsest"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;PRT;SG(pars)",
+      "Generated word": "parsa",
+      "Correct word": "part",
+      "Input": "V;ACT;PRS;POS;IND;3;SG(olema) N;PRT;SG(pars)",
+      "Generation": "on parsa",
+      "Correct": "on part"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V;ACT;PRS;POS;IMP;2;SG(müüma)",
+      "Generated word": "müügi",
+      "Correct word": "müü",
+      "Input": "V;ACT;PRS;POS;IMP;2;SG(müüma) N;NOM;SG(kogumaht) N;GEN;SG(liit) N;AT+ESS;SG(turg) N;IN+ESS;PL(tonn)",
+      "Generation": "müügi kogumaht liidu turul tonnides",
+      "Correct": "müü kogumaht liidu turul tonnides"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V.PTCP;PASS;PST(keelduma)",
+      "Generated word": "keeldunud",
+      "Correct word": "keeldutud",
+      "Input": "ADJ;POS;AT+ABL;SG(osaline) V.PTCP;PASS;PST(keelduma)",
+      "Generation": "osaliselt keeldunud",
+      "Correct": "osaliselt keeldutud"
+    },
+    {
+      "Reason": "Generated word not among alternatives",
+      "Input word": "N;IN+ALL;SG(leevendamine)",
+      "Generated word": "leevendamise",
+      "Correct word": "leevendamisesse|leevendamisse",
+      "Input": "N;NOM;SG(panustamine) N;GEN;PL(kliimamuutus) N;IN+ALL;SG(leevendamine)",
+      "Generation": "panustamine kliimamuutuste leevendamise",
+      "Correct": "panustamine kliimamuutuste leevendamisesse|leevendamisse"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V.PTCP;ACT;PRS(kuuluma)",
+      "Generated word": "kuuluva",
+      "Correct word": "kuuluv",
+      "Input": "N;IN+ALL;SG(grupp) V.PTCP;ACT;PRS(kuuluma) ADJ;POS;IN+ABL;PL(keemiline) N;IN+ABL;PL(filamentkiud) N;NOM;SG(köisik) N;IN+ALL;SG(grupp) V.PTCP;ACT;PRS(kuuluma) N;NOM;SG(multifilamentlõng) N;GEN;SG(või) N;PRT;PL(laug) N;COM;SG(keerdumus) ADJ;POS;GEN;SG(keerd) N;AT+ESS;SG(meeter)",
+      "Generation": "gruppi kuuluv keemilistest filamentkiududest köisik gruppi kuuluva multifilamentlõng või lauge keerdumusega keerdu meetril",
+      "Correct": "gruppi|grupisse kuuluv keemilisist|keemilistest filamentkiududest köisik gruppi|grupisse kuuluv multifilamentlõng või lauge|laugusid keerdumusega keeru meetril"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "ADJ;POS;GEN;SG(keerd)",
+      "Generated word": "keerdu",
+      "Correct word": "keeru",
+      "Input": "N;IN+ALL;SG(grupp) V.PTCP;ACT;PRS(kuuluma) ADJ;POS;IN+ABL;PL(keemiline) N;IN+ABL;PL(filamentkiud) N;NOM;SG(köisik) N;IN+ALL;SG(grupp) V.PTCP;ACT;PRS(kuuluma) N;NOM;SG(multifilamentlõng) N;GEN;SG(või) N;PRT;PL(laug) N;COM;SG(keerdumus) ADJ;POS;GEN;SG(keerd) N;AT+ESS;SG(meeter)",
+      "Generation": "gruppi kuuluv keemilistest filamentkiududest köisik gruppi kuuluva multifilamentlõng või lauge keerdumusega keerdu meetril",
+      "Correct": "gruppi|grupisse kuuluv keemilisist|keemilistest filamentkiududest köisik gruppi|grupisse kuuluv multifilamentlõng või lauge|laugusid keerdumusega keeru meetril"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V.PTCP;PASS;PST(hüdrogeenima)",
+      "Generated word": "hüdrogeeritud",
+      "Correct word": "hüdrogeenitud",
+      "Input": "V;ACT;PRS;POS;IMP;2;PL(valima) ADJ;POS;IN+ABL;PL(järgmine) N;IN+ABL;PL(kategooria) N;PRT;PL(rask) N;GEN;SG(kütteõli) ADJ;POS;GEN;SG(kerge) N;GEN;SG(kütteõli) N;NOM;SG(diislikütus) N;GEN;SG(gaasiõli) V.PTCP;PASS;PST(veeldama) N;NOM;SG(maagaas) V.PTCP;PASS;PST(veeldama) N;NOM;SG(naftagaas) N;NOM;SG(butaan) V.PTCP;PASS;PST(veeldama) N;NOM;SG(naftagaas) N;NOM;SG(propaan) N;NOM;SG(vesinik) ADJ;POS;NOM;SG(fossiilne) N;NOM;SG(ammoniaak) ADJ;POS;NOM;SG(fossiilne) N;NOM;SG(metanool) ADJ;POS;NOM;SG(fossiilne) N;NOM;SG(etanool) N;NOM;SG(biodiisel) V.PTCP;PASS;PST(hüdrogeenima) N;GEN;SG(taimeõli) V.PTCP;PASS;PST(veeldama) N;NOM;SG(biometaan) N;FRML;SG(transpordikütus) N;NOM;SG(biometanool) N;NOM;SG(biokütus) N;NOM;SG(biovesinik) ADJ;POS;NOM;SG(mittefossiilne) N;NOM;SG(kütus)",
+      "Generation": "valige järgmistest kategooriatest raske kütteõli kerge kütteõli diislikütus gaasiõli veeldatud maagaas veeldatud naftagaas butaan veeldatud naftagaas propaan vesinik fossiilne ammoniaak fossiilne metanool fossiilne etanool biodiisel hüdrogeeritud taimeõli veeldatud biometaan transpordikütusena biometanool biokütus biovesinik mittefossiilne kütus",
+      "Correct": "valige järgmiseist|järgmisist|järgmistest kategooriaist|kategooriatest raskusid|raske kütteõli kerge|kerke kütteõli diislikütus gaasiõli veeldatud maagaas veeldatud naftagaas butaan veeldatud naftagaas propaan vesinik fossiilne ammoniaak fossiilne metanool fossiilne etanool biodiisel hüdrogeenitud taimeõli veeldatud biometaan transpordikütusena biometanool biokütus biovesinik mittefossiilne kütus"
+    }
+  ],
+  "1284": [
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;IN+ESS;SG(populg)",
+      "Generated word": "populgis",
+      "Correct word": "populus",
+      "Input": "ADJ;POS;NOM;SG(välimine) N;NOM;SG(kiht) V;ACT;PRS;POS;IND;3;SG(olema) N;IN+ABL;SG(lehtpuit) N;IN+ABL;PL(liik) N;NOM;SG(lepp) N;NOM;SG(saar) N;NOM;SG(pöök) N;NOM;SG(kask) N;GEN;SG(kirsipuu) N;GEN;SG(kastanipuu) N;NOM;SG(jalakas) N;NOM;SG(eukalüpt) N;NOM;SG(hobukastan) N;NOM;SG(pärn) N;NOM;SG(vaher) N;NOM;SG(tamm) N;NOM;SG(plaatan) N;NOM;SG(pappel) N;NOM;SG(haab) N;IN+ESS;SG(populg) N;GEN;SG(robiinia) N;GEN;SG(ebaakaatsia) N;GEN;SG(tulbipuu) N;GEN;SG(või) N;GEN;SG(pähklipuu)",
+      "Generation": "välimine kiht on lehtpuidust liikidest lepp saar pöök kask kirsipuu kastanipuu jalakas eukalüpt hobukastan pärn vaher tamm plaatan pappel haab populgis robiinia ebaakaatsia tulbipuu või pähklipuu",
+      "Correct": "välimine kiht on lehtpuidust liikidest|liikudest lepp saar pöök kask kirsipuu kastanipuu jalakas eukalüpt hobukastan pärn vaher tamm plaatan pappel haab populus robiinia ebaakaatsia tulbipuu või pähklipuu"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;SG(terviseteave)",
+      "Generated word": "tervishoiuteabe",
+      "Correct word": "terviseteabe",
+      "Input": "N;GEN;PL(meditsiiniregister) N;GEN;SG(või) N;GEN;SG(terviseteave) N;GEN;SG(keskaste) N;NOM;SG(spetsialist)",
+      "Generation": "meditsiiniregistrite või tervishoiuteabe keskaste spetsialist",
+      "Correct": "meditsiiniregistrite või terviseteabe keskastme spetsialist"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;SG(keskaste)",
+      "Generated word": "keskaste",
+      "Correct word": "keskastme",
+      "Input": "N;GEN;PL(meditsiiniregister) N;GEN;SG(või) N;GEN;SG(terviseteave) N;GEN;SG(keskaste) N;NOM;SG(spetsialist)",
+      "Generation": "meditsiiniregistrite või tervishoiuteabe keskaste spetsialist",
+      "Correct": "meditsiiniregistrite või terviseteabe keskastme spetsialist"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V;ACT;PST;POS;IND;3;SG(kapsama)",
+      "Generated word": "kapsama",
+      "Correct word": "kapsas",
+      "Input": "N;NOM;SG(kapsas) N;NOM;SG(lillkapsas) N;NOM;SG(nuikapsas) N;NOM;SG(lehtkapsas) V.PTCP;PASS;PRS(sööma) V;ACT;PST;POS;IND;3;SG(kapsama) N;IN+ABL;SG(perekond) ADJ;POS;GEN;SG(värske) N;GEN;SG(või) V.PTCP;PASS;PST(jahutama)",
+      "Generation": "kapsas lillkapsas nuikapsas lehtkapsas söödav kapsama perekonnast värske või jahutatud",
+      "Correct": "kapsas lillkapsas nuikapsas lehtkapsas söödav kapsas perekonnast värske või jahutatud"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "ADJ;POS;AT+ABL;SG(hõre)",
+      "Generated word": "hõrel",
+      "Correct word": "hõredalt",
+      "Input": "N;GEN;SG(internet) N;NOM;SG(kättesaadavus) N;GEN;SG(liit) ADJ;POS;AT+ABL;SG(hõre) V.PTCP;PASS;PST(asustama) N;IN+ESS;PL(piirkond) V;ACT;PRS;POS;IND;3;SG(võima) ADJ;CMPR;NOM;SG(väike)",
+      "Generation": "interneti kättesaadavus liidu hõrel asustatud piirkondades võib väiksem",
+      "Correct": "interneti kättesaadavus liidu hõredalt asustatud piirkonnis|piirkondades võib väiksem"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;PRT;PL(esi)",
+      "Generated word": "esisid",
+      "Correct word": "esi",
+      "Input": "N;IN+ESS;SG(liit) ADJ;POS;GEN;SG(antav) ADJ;POS;GEN;SG(erakorraline) N;GEN;SG(toetus) N;NOM;SG(vahend) N;PRT;PL(esi)",
+      "Generation": "liidus antava erakorralise toetuse vahend esisid",
+      "Correct": "liidus antava erakorralise toetuse vahend esi"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V;PASS;PRS;POS;IND(võimaldama)",
+      "Generated word": "võimaldataks",
+      "Correct word": "võimaldatakse",
+      "Input": "V;PASS;PRS;POS;IND(kehtestama) N;IN+ALL;SG(kohaldamisala) ADJ;POS;IN+ABL;PL(kuuluv) N;IN+ABL;PL(tegevus) ADJ;POS;AT+ALL;SG(tulenev) N;GEN;PL(kasvuhoonegaas) N;AT+ALL;SG(heitkogus) N;IN+ESS;PL(raam) ADJ;POS;GEN;PL(eraldatav) N;NOM;SG(koguarv) N;NOM;SG(ülempiir) V;PASS;PRS;POS;IND(võimaldama) V;ACT;PRS;POS;COND;3;SG(tohtima) N;AT+ALL;SG(import) ADJ;POS;PRT;PL(koguseline) N;PRT;PL(piirang) N;PRT;PL(kaubavoog) V;PASS;PRS;POS;COND(piirama)",
+      "Generation": "kehtestatakse kohaldamisalasse kuuluvatest tegevustest tulenevale kasvuhoonegaaside heitkogusele raames eraldatavate koguarv ülempiir võimaldataks tohiks impordile koguselisi piiranguid kaubavoogusid piirataks",
+      "Correct": "kehtestatakse kohaldamisalasse kuuluvatest|kuuluvaist tegevusist|tegevustest tulenevale kasvuhoonegaaside heitkogusele raamides|raames eraldatavate koguarv ülempiir võimaldatakse tohiks impordile koguselisi piiranguid kaubavoogusid|kaubavooge piirataks"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;PL(täitevasi)",
+      "Generated word": "täitevaste",
+      "Correct word": "täitevasjade",
+      "Input": "V;ACT;PRS;POS;IND;3;SG(allkirjastama) N;GEN;PL(täitevasi)",
+      "Generation": "allkirjastab täitevaste",
+      "Correct": "allkirjastab täitevasjade"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V.PTCP;PASS;PST(kavandama)",
+      "Generated word": "kavas",
+      "Correct word": "kavandatud",
+      "Input": "N;GEN;PL(kasvuhoonegaas) ADJ;POS;NOM;SG(tahtlik) N;IN+ALL;SG(atmosfäär) N;NOM;SG(heitmine) V;ACT;PRS;POS;IND;3;SG(olema) V.PTCP;PASS;PST(keelama) N;NOM;SG(heitmine) V;ACT;PRS;POS;IMP;2;SG(olema) V.PTCP;PASS;PST(kavandama) N;GEN;SG(kasutusala) ADJ;POS;AT+ABL;SG(tehniline) ADJ;POS;NOM;SG(vajalik)",
+      "Generation": "kasvuhoonegaaside tahtlik atmosfääri heitmine on keelatud heitmine ole kavas kasutusalade tehniliselt vajalik",
+      "Correct": "kasvuhoonegaaside tahtlik atmosfäärisse|atmosfääri heitmine on keelatud heitmine ole kavandatud kasutusala tehniliselt vajalik"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;SG(kasutusala)",
+      "Generated word": "kasutusalade",
+      "Correct word": "kasutusala",
+      "Input": "N;GEN;PL(kasvuhoonegaas) ADJ;POS;NOM;SG(tahtlik) N;IN+ALL;SG(atmosfäär) N;NOM;SG(heitmine) V;ACT;PRS;POS;IND;3;SG(olema) V.PTCP;PASS;PST(keelama) N;NOM;SG(heitmine) V;ACT;PRS;POS;IMP;2;SG(olema) V.PTCP;PASS;PST(kavandama) N;GEN;SG(kasutusala) ADJ;POS;AT+ABL;SG(tehniline) ADJ;POS;NOM;SG(vajalik)",
+      "Generation": "kasvuhoonegaaside tahtlik atmosfääri heitmine on keelatud heitmine ole kavas kasutusalade tehniliselt vajalik",
+      "Correct": "kasvuhoonegaaside tahtlik atmosfäärisse|atmosfääri heitmine on keelatud heitmine ole kavandatud kasutusala tehniliselt vajalik"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "ADJ;POS;PRT;SG(klaasvatine)",
+      "Generated word": "klaasvatit",
+      "Correct word": "klaasvatist",
+      "Input": "N;IN+ALL;SG(klaaskolonn) N;NOM;SG(punkt) N;IN+ALL;SG(põhi) V;PASS;PRS;POS;IND(asetama) ADJ;POS;NOM;SG(väike) ADJ;POS;PRT;SG(klaasvatine) N;NOM;SG(tropp) V;PASS;PRS;POS;IND(suruma) N;IN+ALL;SG(klaaspulk)",
+      "Generation": "klaaskolonni punkt põhja asetatakse väike klaasvatit tropp surutakse klaaspulka",
+      "Correct": "klaaskolonni|klaaskolonnisse punkt põhja|põhjasse asetatakse väike klaasvatist tropp surutakse klaaspulka|klaaspulgasse"
+    },
+    {
+      "Reason": "Generated word not among alternatives",
+      "Input word": "N;PRT;PL(lään)",
+      "Generated word": "läände",
+      "Correct word": "lääne|läänisid",
+      "Input": "N;PRT;PL(lään)",
+      "Generation": "läände",
+      "Correct": "lääne|läänisid"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;PL(tootmishoone)",
+      "Generated word": "tootmishoone",
+      "Correct word": "tootmishoonete",
+      "Input": "N;GEN;SG(abi) ADJ;POS;GEN;PL(põllumajanduslik) N;GEN;PL(tootmishoone) N;COM;SG(ümberpaigutamine) N;TRANS;PL(investeering) N;NOM;SG(artikkel)",
+      "Generation": "abi põllumajanduslike tootmishoone ümberpaigutamisega investeeringuteks artikkel",
+      "Correct": "abi põllumajanduslikkude|põllumajanduslike tootmishoonete ümberpaigutamisega investeeringuteks|investeeringuiks artikkel"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "ADJ;POS;GEN;PL(omatav)",
+      "Generated word": "omavatavate",
+      "Correct word": "omatavate",
+      "Input": "V;ACT;PRS;POS;IND;3;SG(olema) N;IN+ESS;PL(krediidiasutus) ADJ;POS;GEN;PL(omatav) N;GEN;SG(tase) N;GEN;PL(omavahend) N;NOM;SG(koguväärtus) N;AT+ESS;SG(puhk) V;ACT;PRS;POS;IND;3;SG(kehtima) N;NOM;SG(mahaarvamine) N;IN+ABL;PL(omavahend)",
+      "Generation": "on krediidiasutustes omavatavate taseme omavahendite koguväärtus puhul kehtib mahaarvamine omavahenditest",
+      "Correct": "on krediidiasutusis|krediidiasutustes omatavate taseme omavahendite koguväärtus puhul kehtib mahaarvamine omavahenditest|omavahendeist"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "ADJ;POS;NOM;SG(autentne)",
+      "Generated word": "autentsed",
+      "Correct word": "autentne",
+      "Input": "ADJ;POS;NOM;SG(käesolev) N;NOM;SG(otsus) V;ACT;PRS;POS;IND;3;SG(olema) ADJ;POS;NOM;SG(autentne) N;IN+ESS;SG(keel) V;ACT;PRS;POS;IND;3;SG(jõustuma) N;AT+ESS;SG(juuli)",
+      "Generation": "käesolev otsus on autentsed keeles jõustub juulil",
+      "Correct": "käesolev otsus on autentne keeles jõustub juulil"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;SG(reeksport)",
+      "Generated word": "reeksport",
+      "Correct word": "reekspordi",
+      "Input": "N;GEN;SG(reeksport) N;NOM;SG(deklaratsioon)",
+      "Generation": "reeksport deklaratsioon",
+      "Correct": "reekspordi deklaratsioon"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V.PTCP;PASS;PST(andma)",
+      "Generated word": "andud",
+      "Correct word": "antud",
+      "Input": "ADJ;POS;PRT;SG(asjaomane) N;NOM;SG(luba) V;ACT;PRS;POS;IMP;2;SG(olema) V.PTCP;PASS;PST(andma) V;ACT;PRS;POS;IMP;2;PL(märkima) N;GEN;SG(taotlus) N;NOM;SG(registreerimisnumber)",
+      "Generation": "asjaomast luba ole andud märkige taotluse registreerimisnumber",
+      "Correct": "asjaomast luba ole antud märkige taotluse registreerimisnumber"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;COM;SG(ühishuvi)",
+      "Generated word": "ühushuviga",
+      "Correct word": "ühishuviga",
+      "Input": "V;ACT;PST;POS;IND;3;SG(olema) N;GEN;SG(kuningriik) N;NOM;SG(sekkumine) N;IN+ESS;SG(kooskõla) N;COM;SG(ühishuvi)",
+      "Generation": "oli kuningriigi sekkumine kooskõlas ühushuviga",
+      "Correct": "oli kuningriigi sekkumine kooskõlas ühishuviga"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;IN+ABL;SG(osapartii)",
+      "Generated word": "osapartiiist",
+      "Correct word": "osapartiist",
+      "Input": "N;NOM;SG(lähteproov) N;IN+ABL;SG(partii) N;GEN;SG(või) N;IN+ABL;SG(osapartii) N;GEN;PL(valim) N;NOM;SG(kogum)",
+      "Generation": "lähteproov partiist või osapartiiist valimite kogum",
+      "Correct": "lähteproov partiist või osapartiist valimite kogum"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;SG(nimi)",
+      "Generated word": "nimi",
+      "Correct word": "nime",
+      "Input": "N;GEN;SG(lokaator) N;GEN;SG(nimi) N;NOM;SG(tüüp)",
+      "Generation": "lokaatori nimi tüüp",
+      "Correct": "lokaatori nime tüüp"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;PRT;SG(pars)",
+      "Generated word": "pars",
+      "Correct word": "part",
+      "Input": "V;ACT;PRS;POS;IND;3;SG(olema) N;PRT;SG(pars)",
+      "Generation": "on pars",
+      "Correct": "on part"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "ADJ;POS;NOM;SG(suur)",
+      "Generated word": "suure",
+      "Correct word": "suur",
+      "Input": "N;NOM;SG(organisatsioon) V;ACT;PRS;POS;IND;3;SG(võima) N;GEN;SG(tasu) V;ACT;PRS;POS;IMP;2;SG(olema) ADJ;POS;NOM;SG(suur)",
+      "Generation": "organisatsioon võib tasu ole suure",
+      "Correct": "organisatsioon võib tasu ole suur"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;SG(osa)",
+      "Generated word": "os",
+      "Correct word": "osa",
+      "Input": "N;GEN;PL(raudteetranspordivahend) N;GEN;PL(remonditeenus) N;AT+ESS;SG(puhk) V;ACT;PRS;POS;IND;3;SG(kehtima) N;GEN;SG(riik) N;NOM;SG(monopol) N;GEN;SG(osa)",
+      "Generation": "raudteetranspordivahendite remonditeenuste puhul kehtib riigi monopol os",
+      "Correct": "raudteetranspordivahendite remonditeenuste puhul kehtib riigi monopol osa"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V;ACT;PRS;POS;IMP;2;SG(müüma)",
+      "Generated word": "müügi",
+      "Correct word": "müü",
+      "Input": "V;ACT;PRS;POS;IMP;2;SG(müüma) N;NOM;SG(kogumaht) N;GEN;SG(liit) N;AT+ESS;SG(turg) N;IN+ESS;PL(tonn)",
+      "Generation": "müügi kogumaht liidu turul tonnides",
+      "Correct": "müü kogumaht liidu turul tonnides"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;SG(membraanfilter)",
+      "Generated word": "membraanfilter",
+      "Correct word": "membraanfiltri",
+      "Input": "N;GEN;SG(osa) V;PASS;PRS;POS;IND(filtrima) N;GEN;SG(membraanfilter) N;NOM;SG(punkt)",
+      "Generation": "osa filtritakse membraanfilter punkt",
+      "Correct": "osa filtritakse membraanfiltri punkt"
+    },
+    {
+      "Reason": "Difference in the number of words",
+      "Number of words generated": 4,
+      "Number of correct words": 3,
+      "Input": "N;NOM;SG(aadress) N;NOM;PL(roog) V;ACT;PRS;POS;IND;1;SG(irama)",
+      "Generation": "aadress road I am",
+      "Correct": "aadress road|rood iran"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;SG(näit)",
+      "Generated word": "näit",
+      "Correct word": "näidu",
+      "Input": "N;IN+ESS;PL(alamrubriik) V;ACT;PRS;POS;IND;3;SG(tähistama) N;NOM;SG(termin) N;NOM;SG(toorsuhkur) N;PRT;SG(suhkur) N;NOM;SG(sahharoosisisaldus) N;IN+ESS;SG(kuivaine) N;GEN;SG(näit) N;PRT;PL(järg) V;ACT;PRS;POS;IND;3;SG(olema)",
+      "Generation": "alamrubriikides tähistab termin toorsuhkur suhkrut sahharoosisisaldus kuivaines näit järgi on",
+      "Correct": "alamrubriikides|alamrubriiges tähistab termin toorsuhkur suhkrut sahharoosisisaldus kuivaines näidu järgesid|järgi on"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "ADJ;POS;GEN;SG(keerd)",
+      "Generated word": "keerme",
+      "Correct word": "keeru",
+      "Input": "N;IN+ALL;SG(grupp) V.PTCP;ACT;PRS(kuuluma) ADJ;POS;IN+ABL;PL(keemiline) N;IN+ABL;PL(filamentkiud) N;NOM;SG(köisik) N;IN+ALL;SG(grupp) V.PTCP;ACT;PRS(kuuluma) N;NOM;SG(multifilamentlõng) N;GEN;SG(või) N;PRT;PL(laug) N;COM;SG(keerdumus) ADJ;POS;GEN;SG(keerd) N;AT+ESS;SG(meeter)",
+      "Generation": "gruppi kuuluv keemilistest filamentkiududest köisik gruppi kuuluv multifilamentlõng või lauge keerdumusega keerme meetril",
+      "Correct": "gruppi|grupisse kuuluv keemilisist|keemilistest filamentkiududest köisik gruppi|grupisse kuuluv multifilamentlõng või lauge|laugusid keerdumusega keeru meetril"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V.PTCP;PASS;PST(veeldama)",
+      "Generated word": "veeldunud",
+      "Correct word": "veeldatud",
+      "Input": "V;ACT;PRS;POS;IMP;2;PL(valima) ADJ;POS;IN+ABL;PL(järgmine) N;IN+ABL;PL(kategooria) N;PRT;PL(rask) N;GEN;SG(kütteõli) ADJ;POS;GEN;SG(kerge) N;GEN;SG(kütteõli) N;NOM;SG(diislikütus) N;GEN;SG(gaasiõli) V.PTCP;PASS;PST(veeldama) N;NOM;SG(maagaas) V.PTCP;PASS;PST(veeldama) N;NOM;SG(naftagaas) N;NOM;SG(butaan) V.PTCP;PASS;PST(veeldama) N;NOM;SG(naftagaas) N;NOM;SG(propaan) N;NOM;SG(vesinik) ADJ;POS;NOM;SG(fossiilne) N;NOM;SG(ammoniaak) ADJ;POS;NOM;SG(fossiilne) N;NOM;SG(metanool) ADJ;POS;NOM;SG(fossiilne) N;NOM;SG(etanool) N;NOM;SG(biodiisel) V.PTCP;PASS;PST(hüdrogeenima) N;GEN;SG(taimeõli) V.PTCP;PASS;PST(veeldama) N;NOM;SG(biometaan) N;FRML;SG(transpordikütus) N;NOM;SG(biometanool) N;NOM;SG(biokütus) N;NOM;SG(biovesinik) ADJ;POS;NOM;SG(mittefossiilne) N;NOM;SG(kütus)",
+      "Generation": "valige järgmistest kategooriatest raske kütteõli kerge kütteõli diislikütus gaasiõli veeldunud maagaas veeldunud naftagaas butaan veeldunud naftagaas propaan vesinik fossiilne ammoniaak fossiilne metanool fossiilne etanool biodiisel hüdrogeenitud taimeõli veeldunud biometaan transpordikütusena biometanool biokütus biovesinik mittefossiilne kütus",
+      "Correct": "valige järgmiseist|järgmisist|järgmistest kategooriaist|kategooriatest raskusid|raske kütteõli kerge|kerke kütteõli diislikütus gaasiõli veeldatud maagaas veeldatud naftagaas butaan veeldatud naftagaas propaan vesinik fossiilne ammoniaak fossiilne metanool fossiilne etanool biodiisel hüdrogeenitud taimeõli veeldatud biometaan transpordikütusena biometanool biokütus biovesinik mittefossiilne kütus"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V.PTCP;PASS;PST(veeldama)",
+      "Generated word": "veeldunud",
+      "Correct word": "veeldatud",
+      "Input": "V;ACT;PRS;POS;IMP;2;PL(valima) ADJ;POS;IN+ABL;PL(järgmine) N;IN+ABL;PL(kategooria) N;PRT;PL(rask) N;GEN;SG(kütteõli) ADJ;POS;GEN;SG(kerge) N;GEN;SG(kütteõli) N;NOM;SG(diislikütus) N;GEN;SG(gaasiõli) V.PTCP;PASS;PST(veeldama) N;NOM;SG(maagaas) V.PTCP;PASS;PST(veeldama) N;NOM;SG(naftagaas) N;NOM;SG(butaan) V.PTCP;PASS;PST(veeldama) N;NOM;SG(naftagaas) N;NOM;SG(propaan) N;NOM;SG(vesinik) ADJ;POS;NOM;SG(fossiilne) N;NOM;SG(ammoniaak) ADJ;POS;NOM;SG(fossiilne) N;NOM;SG(metanool) ADJ;POS;NOM;SG(fossiilne) N;NOM;SG(etanool) N;NOM;SG(biodiisel) V.PTCP;PASS;PST(hüdrogeenima) N;GEN;SG(taimeõli) V.PTCP;PASS;PST(veeldama) N;NOM;SG(biometaan) N;FRML;SG(transpordikütus) N;NOM;SG(biometanool) N;NOM;SG(biokütus) N;NOM;SG(biovesinik) ADJ;POS;NOM;SG(mittefossiilne) N;NOM;SG(kütus)",
+      "Generation": "valige järgmistest kategooriatest raske kütteõli kerge kütteõli diislikütus gaasiõli veeldunud maagaas veeldunud naftagaas butaan veeldunud naftagaas propaan vesinik fossiilne ammoniaak fossiilne metanool fossiilne etanool biodiisel hüdrogeenitud taimeõli veeldunud biometaan transpordikütusena biometanool biokütus biovesinik mittefossiilne kütus",
+      "Correct": "valige järgmiseist|järgmisist|järgmistest kategooriaist|kategooriatest raskusid|raske kütteõli kerge|kerke kütteõli diislikütus gaasiõli veeldatud maagaas veeldatud naftagaas butaan veeldatud naftagaas propaan vesinik fossiilne ammoniaak fossiilne metanool fossiilne etanool biodiisel hüdrogeenitud taimeõli veeldatud biometaan transpordikütusena biometanool biokütus biovesinik mittefossiilne kütus"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V.PTCP;PASS;PST(veeldama)",
+      "Generated word": "veeldunud",
+      "Correct word": "veeldatud",
+      "Input": "V;ACT;PRS;POS;IMP;2;PL(valima) ADJ;POS;IN+ABL;PL(järgmine) N;IN+ABL;PL(kategooria) N;PRT;PL(rask) N;GEN;SG(kütteõli) ADJ;POS;GEN;SG(kerge) N;GEN;SG(kütteõli) N;NOM;SG(diislikütus) N;GEN;SG(gaasiõli) V.PTCP;PASS;PST(veeldama) N;NOM;SG(maagaas) V.PTCP;PASS;PST(veeldama) N;NOM;SG(naftagaas) N;NOM;SG(butaan) V.PTCP;PASS;PST(veeldama) N;NOM;SG(naftagaas) N;NOM;SG(propaan) N;NOM;SG(vesinik) ADJ;POS;NOM;SG(fossiilne) N;NOM;SG(ammoniaak) ADJ;POS;NOM;SG(fossiilne) N;NOM;SG(metanool) ADJ;POS;NOM;SG(fossiilne) N;NOM;SG(etanool) N;NOM;SG(biodiisel) V.PTCP;PASS;PST(hüdrogeenima) N;GEN;SG(taimeõli) V.PTCP;PASS;PST(veeldama) N;NOM;SG(biometaan) N;FRML;SG(transpordikütus) N;NOM;SG(biometanool) N;NOM;SG(biokütus) N;NOM;SG(biovesinik) ADJ;POS;NOM;SG(mittefossiilne) N;NOM;SG(kütus)",
+      "Generation": "valige järgmistest kategooriatest raske kütteõli kerge kütteõli diislikütus gaasiõli veeldunud maagaas veeldunud naftagaas butaan veeldunud naftagaas propaan vesinik fossiilne ammoniaak fossiilne metanool fossiilne etanool biodiisel hüdrogeenitud taimeõli veeldunud biometaan transpordikütusena biometanool biokütus biovesinik mittefossiilne kütus",
+      "Correct": "valige järgmiseist|järgmisist|järgmistest kategooriaist|kategooriatest raskusid|raske kütteõli kerge|kerke kütteõli diislikütus gaasiõli veeldatud maagaas veeldatud naftagaas butaan veeldatud naftagaas propaan vesinik fossiilne ammoniaak fossiilne metanool fossiilne etanool biodiisel hüdrogeenitud taimeõli veeldatud biometaan transpordikütusena biometanool biokütus biovesinik mittefossiilne kütus"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V.PTCP;PASS;PST(veeldama)",
+      "Generated word": "veeldunud",
+      "Correct word": "veeldatud",
+      "Input": "V;ACT;PRS;POS;IMP;2;PL(valima) ADJ;POS;IN+ABL;PL(järgmine) N;IN+ABL;PL(kategooria) N;PRT;PL(rask) N;GEN;SG(kütteõli) ADJ;POS;GEN;SG(kerge) N;GEN;SG(kütteõli) N;NOM;SG(diislikütus) N;GEN;SG(gaasiõli) V.PTCP;PASS;PST(veeldama) N;NOM;SG(maagaas) V.PTCP;PASS;PST(veeldama) N;NOM;SG(naftagaas) N;NOM;SG(butaan) V.PTCP;PASS;PST(veeldama) N;NOM;SG(naftagaas) N;NOM;SG(propaan) N;NOM;SG(vesinik) ADJ;POS;NOM;SG(fossiilne) N;NOM;SG(ammoniaak) ADJ;POS;NOM;SG(fossiilne) N;NOM;SG(metanool) ADJ;POS;NOM;SG(fossiilne) N;NOM;SG(etanool) N;NOM;SG(biodiisel) V.PTCP;PASS;PST(hüdrogeenima) N;GEN;SG(taimeõli) V.PTCP;PASS;PST(veeldama) N;NOM;SG(biometaan) N;FRML;SG(transpordikütus) N;NOM;SG(biometanool) N;NOM;SG(biokütus) N;NOM;SG(biovesinik) ADJ;POS;NOM;SG(mittefossiilne) N;NOM;SG(kütus)",
+      "Generation": "valige järgmistest kategooriatest raske kütteõli kerge kütteõli diislikütus gaasiõli veeldunud maagaas veeldunud naftagaas butaan veeldunud naftagaas propaan vesinik fossiilne ammoniaak fossiilne metanool fossiilne etanool biodiisel hüdrogeenitud taimeõli veeldunud biometaan transpordikütusena biometanool biokütus biovesinik mittefossiilne kütus",
+      "Correct": "valige järgmiseist|järgmisist|järgmistest kategooriaist|kategooriatest raskusid|raske kütteõli kerge|kerke kütteõli diislikütus gaasiõli veeldatud maagaas veeldatud naftagaas butaan veeldatud naftagaas propaan vesinik fossiilne ammoniaak fossiilne metanool fossiilne etanool biodiisel hüdrogeenitud taimeõli veeldatud biometaan transpordikütusena biometanool biokütus biovesinik mittefossiilne kütus"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;PL(parandamine)",
+      "Generated word": "parandamise",
+      "Correct word": "parandamiste",
+      "Input": "ADJ;POS;IN+ESS;PL(tehniline) N;IN+ESS;PL(arvamus) V.PTCP;PASS;PST(avaldama) N;GEN;PL(viga) N;GEN;PL(parandamine) N;NOM;SG(rakendamine) V;ACT;PRS;POS;IMP;2;SG(olema) ADJ;POS;NOM;SG(kohustuslik)",
+      "Generation": "tehnilistes arvamustes avaldatud vigade parandamise rakendamine ole kohustuslik",
+      "Correct": "tehnilistes|tehnilisis arvamusis|arvamustes avaldatud vigade parandamiste rakendamine ole kohustuslik"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;SG(netorahavoog)",
+      "Generated word": "netorahavoog",
+      "Correct word": "netorahavoo",
+      "Input": "N;GEN;SG(netorahavoog) N;AT+ESS;SG(puhk) V;ACT;PST;POS;IND;3;SG(olema) N;NOM;SG(suundumus) ADJ;POS;NOM;SG(sarnane) N;GEN;SG(kasumlikkus) N;PRT;SG(aasta) V;ACT;PST;POS;IND;3;SG(iseloomustama) ADJ;POS;NOM;SG(negatiivne) N;NOM;SG(rekord) V;ACT;PST;POS;IND;3;SG(järgnema) ADJ;POS;NOM;SG(järsk) ADJ;POS;NOM;SG(edasine) N;IN+ESS;SG(lang) N;AT+ESS;SG(aasta) ADJ;POS;NOM;SG(märkimisväärne) N;NOM;SG(taastumine) N;AT+ESS;SG(aasta) V;ACT;PST;POS;IND;3;SG(suurenema) N;COM;SG(läbivaatamine) N;AT+ESS;SG(uurimisperiood)",
+      "Generation": "netorahavoog puhul oli suundumus sarnane kasumlikkuse aastat iseloomustas negatiivne rekord järgnes järsk edasine langus aastal märkimisväärne taastumine aastal suurenes läbivaatamisega uurimisperioodil",
+      "Correct": "netorahavoo puhul oli suundumus sarnane kasumlikkuse aastat iseloomustas negatiivne rekord järgnes järsk edasine langus aastal märkimisväärne taastumine aastal suurenes läbivaatamisega uurimisperioodil"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "ADJ;POS;NOM;SG(toores)",
+      "Generated word": "toore",
+      "Correct word": "toores",
+      "Input": "N;NOM;SG(köögivili) ADJ;POS;NOM;SG(toores) N;GEN;SG(või) ADJ;POS;AT+ABL;SG(eelnev) V.PTCP;PASS;PST(aurutama) N;GEN;SG(või) V.PTCP;PASS;PST(keetma)",
+      "Generation": "köögivili toore või eelnevalt aurutatud või keedetud",
+      "Correct": "köögivili toores või eelnevalt aurutatud või keedetud"
+    }
+  ],
+  "1712": [
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;NOM;SG(inspekteerimisaruanne)",
+      "Generated word": "inspekteerimisaruandlus",
+      "Correct word": "inspekteerimisaruanne",
+      "Input": "N;NOM;SG(inspekteerimisaruanne)",
+      "Generation": "inspekteerimisaruandlus",
+      "Correct": "inspekteerimisaruanne"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;PL(väärisese)",
+      "Generated word": "väärisese",
+      "Correct word": "väärisesemete",
+      "Input": "N;GEN;PL(varu) V;ACT;PST;POS;IND;3;SG(muutuma) N;GEN;PL(väärisese) N;NOM;SG(soetamine) N;NOM;SG(miinus) N;NOM;SG(realiseerimine)",
+      "Generation": "varude muutus väärisese soetamine miinus realiseerimine",
+      "Correct": "varude muutus väärisesemete soetamine miinus realiseerimine"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;SG(terviseteave)",
+      "Generated word": "terviseinfo",
+      "Correct word": "terviseteabe",
+      "Input": "N;GEN;PL(meditsiiniregister) N;GEN;SG(või) N;GEN;SG(terviseteave) N;GEN;SG(keskaste) N;NOM;SG(spetsialist)",
+      "Generation": "meditsiiniregistrite või terviseinfo keskaste spetsialist",
+      "Correct": "meditsiiniregistrite või terviseteabe keskastme spetsialist"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;SG(keskaste)",
+      "Generated word": "keskaste",
+      "Correct word": "keskastme",
+      "Input": "N;GEN;PL(meditsiiniregister) N;GEN;SG(või) N;GEN;SG(terviseteave) N;GEN;SG(keskaste) N;NOM;SG(spetsialist)",
+      "Generation": "meditsiiniregistrite või terviseinfo keskaste spetsialist",
+      "Correct": "meditsiiniregistrite või terviseteabe keskastme spetsialist"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V.PTCP;PASS;PRS(saama)",
+      "Generated word": "saav",
+      "Correct word": "saadav",
+      "Input": "N;IN+ABL;PL(kliendileping) V.PTCP;PASS;PRS(saama) N;GEN;SG(müügitulu) N;IN+ESS;SG(mai) V;PASS;PST;POS;IND(muutma) N;IN+ALL;SG(paragrahv) V;PASS;PST;POS;IND(jätma) N;NOM;SG(paragrahv) N;NOM;SG(pealkiri) V;PASS;PST;POS;IND(lisama) N;NOM;PL(paragrahv) N;NOM;SG(pealkiri)",
+      "Generation": "kliendilepingutest saav müügitulu mais muudeti paragrahvi jäeti paragrahv pealkiri lisati paragrahvid pealkiri",
+      "Correct": "kliendilepinguist|kliendilepingutest saadav müügitulu mais muudeti paragrahvisse|paragrahvi jäeti paragrahv pealkiri lisati paragrahvid pealkiri"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "ADJ;POS;GEN;PL(institutsioonisisene)",
+      "Generated word": "institutsioonisisese",
+      "Correct word": "institutsioonisiseste",
+      "Input": "N;GEN;PL(koolitus) ADJ;POS;GEN;PL(institutsioonisisene) ADJ;POS;GEN;PL(institutsioonidevaheline) N;GEN;SG(või) ADJ;POS;GEN;PL(institutsioonideväline) N;GEN;PL(pakkuja) N;GEN;PL(keelekursus) N;NOM;SG(korraldamine) V.PTCP;PASS;PRS(pakkuma) ADJ;POS;NOM;SG(logistiline) N;NOM;SG(tugi)",
+      "Generation": "koolituste institutsioonisisese institutsioonidevaheliste või institutsioonideväliste pakkujate keelekursuste korraldamine pakutav logistiline tugi",
+      "Correct": "koolituste institutsioonisiseste institutsioonidevaheliste või institutsioonideväliste pakkujate keelekursuste korraldamine pakutav logistiline tugi"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;PRT;PL(esi)",
+      "Generated word": "esisid",
+      "Correct word": "esi",
+      "Input": "N;IN+ESS;SG(liit) ADJ;POS;GEN;SG(antav) ADJ;POS;GEN;SG(erakorraline) N;GEN;SG(toetus) N;NOM;SG(vahend) N;PRT;PL(esi)",
+      "Generation": "liidus antava erakorralise toetuse vahend esisid",
+      "Correct": "liidus antava erakorralise toetuse vahend esi"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;PL(täitevasi)",
+      "Generated word": "täitevaste",
+      "Correct word": "täitevasjade",
+      "Input": "V;ACT;PRS;POS;IND;3;SG(allkirjastama) N;GEN;PL(täitevasi)",
+      "Generation": "allkirjastab täitevaste",
+      "Correct": "allkirjastab täitevasjade"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;COM;SG(vähk)",
+      "Generated word": "vähaga",
+      "Correct word": "vähiga",
+      "Input": "N;NOM;SG(vähk) N;NOM;SG(vähidiagnoos) N;GEN;SG(vähiravi) N;COM;SG(vähk) N;NOM;SG(elamine) ADJ;POS;GEN;SG(viimane) N;GEN;SG(kuu) N;AT+ESS;SG(jooks)",
+      "Generation": "vähk vähidiagnoos vähiravi vähaga elamine viimase kuu jooksul",
+      "Correct": "vähk vähidiagnoos vähiravi vähiga elamine viimase kuu jooksul"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V;ACT;PRS;POS;IMP;2;SG(tugema)",
+      "Generated word": "tugevat",
+      "Correct word": "tuge",
+      "Input": "N;NOM;SG(komisjon) V;ACT;PRS;POS;IND;3;SG(andma) N;AT+ALL;PL(liikmesriik) ADJ;POS;PRT;SG(piisav) V;ACT;PRS;POS;IMP;2;SG(tugema) N;GEN;SG(abi) V.PTCP;PASS;PST(koguma) N;GEN;PL(andmed) N;NOM;SG(järjepidevus) N;NOM;SG(läbipaistvus)",
+      "Generation": "komisjon annab liikmesriikidele piisavat tugevat abi kogutud andmete järjepidevus läbipaistvus",
+      "Correct": "komisjon annab liikmesriikidele piisavat tuge abi kogutud andmete järjepidevus läbipaistvus"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;SG(reeksport)",
+      "Generated word": "reeskspordi",
+      "Correct word": "reekspordi",
+      "Input": "N;GEN;SG(reeksport) N;NOM;SG(deklaratsioon)",
+      "Generation": "reeskspordi deklaratsioon",
+      "Correct": "reekspordi deklaratsioon"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;COM;SG(ühishuvi)",
+      "Generated word": "ühushuvi",
+      "Correct word": "ühishuviga",
+      "Input": "V;ACT;PST;POS;IND;3;SG(olema) N;GEN;SG(kuningriik) N;NOM;SG(sekkumine) N;IN+ESS;SG(kooskõla) N;COM;SG(ühishuvi)",
+      "Generation": "oli kuningriigi sekkumine kooskõlas ühushuvi",
+      "Correct": "oli kuningriigi sekkumine kooskõlas ühishuviga"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;PL(väärisese)",
+      "Generated word": "vääriseseade",
+      "Correct word": "väärisesemete",
+      "Input": "N;GEN;PL(väärisese) N;NOM;SG(soetamine) N;NOM;SG(miinus) N;NOM;SG(realiseerimine)",
+      "Generation": "vääriseseade soetamine miinus realiseerimine",
+      "Correct": "väärisesemete soetamine miinus realiseerimine"
+    },
+    {
+      "Reason": "Generated word not among alternatives",
+      "Input word": "N;IN+ALL;SG(määrus)",
+      "Generated word": "määruse",
+      "Correct word": "määrusesse|määrusse",
+      "Input": "ADJ;POS;GEN;PL(indeksipõhine) N;GEN;PL(osalus) N;IN+ALL;SG(koht) V;PASS;PST;POS;IND(lisama) N;COM;SG(määrus) N;IN+ALL;SG(määrus) N;NOM;SG(artikkel)",
+      "Generation": "indeksipõhiste osaluste kohta lisati määrusega määruse artikkel",
+      "Correct": "indeksipõhiste osaluste kohasse|kohta lisati määrusega määrusesse|määrusse artikkel"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;PRT;SG(pars)",
+      "Generated word": "parsi",
+      "Correct word": "part",
+      "Input": "V;ACT;PRS;POS;IND;3;SG(olema) N;PRT;SG(pars)",
+      "Generation": "on parsi",
+      "Correct": "on part"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V;ACT;PRS;POS;IMP;2;SG(müüma)",
+      "Generated word": "müügi",
+      "Correct word": "müü",
+      "Input": "V;ACT;PRS;POS;IMP;2;SG(müüma) N;NOM;SG(kogumaht) N;GEN;SG(liit) N;AT+ESS;SG(turg) N;IN+ESS;PL(tonn)",
+      "Generation": "müügi kogumaht liidu turul tonnides",
+      "Correct": "müü kogumaht liidu turul tonnides"
+    },
+    {
+      "Reason": "Generated word not among alternatives",
+      "Input word": "N;AT+ALL;PL(osalus)",
+      "Generated word": "osalistele",
+      "Correct word": "osalustele|osalusile",
+      "Input": "ADJ;POS;AT+ALL;PL(mittekontrolliv) N;AT+ALL;PL(osalus) V.PTCP;ACT;PRS(kuuluma) N;IN+ALL;SG(omakapital) N;GEN;SG(osa) V;ACT;PRS;POS;IND;3;SG(muutuma) V;ACT;PRS;POS;IND;3;SG(korrigeerima) N;NOM;SG(üksus) ADJ;POS;GEN;PL(kontrolliv) ADJ;POS;GEN;PL(mittekontrolliv) N;GEN;PL(osalus) ADJ;POS;PRT;SG(bilansiline) N;PRT;SG(jääkmaksumus) N;PRT;PL(muutus) N;IN+ESS;SG(tütarettevõte) ADJ;POS;IN+ESS;PL(kuuluv) ADJ;POS;IN+ESS;PL(suhteline) N;IN+ESS;PL(osalus)",
+      "Generation": "mittekontrollivatele osalistele kuuluv omakapitali osa muutub korrigeerib üksus kontrollivate mittekontrollivate osaluste bilansilist jääkmaksumust muutusi tütarettevõttes kuuluvates suhtelistes osalustes",
+      "Correct": "mittekontrollivaile|mittekontrollivatele osalustele|osalusile kuuluv omakapitalisse|omakapitali osa muutub korrigeerib üksus kontrollivate mittekontrollivate osaluste bilansilist jääkmaksumust muutuseid|muutusi tütarettevõttes kuuluvates|kuuluvais suhtelistes|suhtelisis osalustes|osalusis"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;NOM;SG(elektrijuhistike)",
+      "Generated word": "elektrijuhistikud",
+      "Correct word": "elektrijuhistike",
+      "Input": "N;NOM;SG(elektrijuhistike) N;NOM;PL(torusüsteem)",
+      "Generation": "elektrijuhistikud torusüsteemid",
+      "Correct": "elektrijuhistike torusüsteemid"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;COM;SG(keerdumus)",
+      "Generated word": "keerdumisega",
+      "Correct word": "keerdumusega",
+      "Input": "N;IN+ALL;SG(grupp) V.PTCP;ACT;PRS(kuuluma) ADJ;POS;IN+ABL;PL(keemiline) N;IN+ABL;PL(filamentkiud) N;NOM;SG(köisik) N;IN+ALL;SG(grupp) V.PTCP;ACT;PRS(kuuluma) N;NOM;SG(multifilamentlõng) N;GEN;SG(või) N;PRT;PL(laug) N;COM;SG(keerdumus) ADJ;POS;GEN;SG(keerd) N;AT+ESS;SG(meeter)",
+      "Generation": "gruppi kuuluv keemilistest filamentkiududest köisik gruppi kuuluv multifilamentlõng või lauge keerdumisega keeru meetril",
+      "Correct": "gruppi|grupisse kuuluv keemilisist|keemilistest filamentkiududest köisik gruppi|grupisse kuuluv multifilamentlõng või lauge|laugusid keerdumusega keeru meetril"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;NOM;SG(asutus)",
+      "Generated word": "asutuse",
+      "Correct word": "asutus",
+      "Input": "N;GEN;SG(abi) ADJ;POS;GEN;SG(andev) N;NOM;SG(asutus) N;NOM;SG(nimi) N;NOM;PL(nimi)",
+      "Generation": "abi andva asutuse nimi nimed",
+      "Correct": "abi andva asutus nimi nimed"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;AT+ESS;SG(kandekana)",
+      "Generated word": "kandekanalil",
+      "Correct word": "kandekanal",
+      "Input": "N;AT+ESS;SG(kandekana) V.PTCP;PASS;PST(kasutama) N;NOM;SG(sideteenus)",
+      "Generation": "kandekanalil kasutatud sideteenus",
+      "Correct": "kandekanal kasutatud sideteenus"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V;ACT;PRS;POS;IND;1;SG(irama)",
+      "Generated word": "irama",
+      "Correct word": "iran",
+      "Input": "V;ACT;PRS;POS;IND;3;SG(olema) ADJ;POS;NOM;SG(endine) N;GEN;PL(relvajõud) N;GEN;SG(logistika) N;IN+ALL;SG(ministeerium) N;NOM;SG(and) N;NOM;SG(vanemteadur) ADJ;POS;NOM;SG(endine) N;IN+ALL;SG(aatomienergiaorganisatsioon) V;ACT;PRS;POS;IND;1;SG(irama) N;NOM;SG(juht)",
+      "Generation": "on endine relvajõudude logistika ministeeriumi and vanemteadur endine aatomienergiaorganisatsiooni irama juht",
+      "Correct": "on endine relvajõudude logistika ministeeriumisse|ministeeriumi and vanemteadur endine aatomienergiaorganisatsiooni|aatomienergiaorganisatsioonisse iran juht"
+    }
+  ],
+  "2140": [
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;IN+ESS;SG(populg)",
+      "Generated word": "populgis",
+      "Correct word": "populus",
+      "Input": "ADJ;POS;NOM;SG(välimine) N;NOM;SG(kiht) V;ACT;PRS;POS;IND;3;SG(olema) N;IN+ABL;SG(lehtpuit) N;IN+ABL;PL(liik) N;NOM;SG(lepp) N;NOM;SG(saar) N;NOM;SG(pöök) N;NOM;SG(kask) N;GEN;SG(kirsipuu) N;GEN;SG(kastanipuu) N;NOM;SG(jalakas) N;NOM;SG(eukalüpt) N;NOM;SG(hobukastan) N;NOM;SG(pärn) N;NOM;SG(vaher) N;NOM;SG(tamm) N;NOM;SG(plaatan) N;NOM;SG(pappel) N;NOM;SG(haab) N;IN+ESS;SG(populg) N;GEN;SG(robiinia) N;GEN;SG(ebaakaatsia) N;GEN;SG(tulbipuu) N;GEN;SG(või) N;GEN;SG(pähklipuu)",
+      "Generation": "välimine kiht on lehtpuidust liikidest lepp saar pöök kask kirsipuu kastanipuu jalakas eukalüpt hobukastan pärn vaher tamm plaatan pappel haab populgis robiinia ebaakaatsia tulbipuu või pähklipuu",
+      "Correct": "välimine kiht on lehtpuidust liikidest|liikudest lepp saar pöök kask kirsipuu kastanipuu jalakas eukalüpt hobukastan pärn vaher tamm plaatan pappel haab populus robiinia ebaakaatsia tulbipuu või pähklipuu"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;SG(terviseteave)",
+      "Generated word": "terviseinfo",
+      "Correct word": "terviseteabe",
+      "Input": "N;GEN;PL(meditsiiniregister) N;GEN;SG(või) N;GEN;SG(terviseteave) N;GEN;SG(keskaste) N;NOM;SG(spetsialist)",
+      "Generation": "meditsiiniregistrite või terviseinfo keskastme spetsialist",
+      "Correct": "meditsiiniregistrite või terviseteabe keskastme spetsialist"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;PL(aktiivpüünis)",
+      "Generated word": "aktiivpüügiste",
+      "Correct word": "aktiivpüüniste",
+      "Input": "N;GEN;SG(või) N;GEN;SG(osa) N;GEN;PL(aktiivpüünis) N;NOM;SG(suurus) V;ACT;PRS;POS;IND;3;SG(ületama) N;GEN;PL(vahend) V.PTCP;PASS;PST(lubama) N;PRT;PL(mõõde)",
+      "Generation": "või osa aktiivpüügiste suurus ületab vahendite lubatud mõõtmeid",
+      "Correct": "või osa aktiivpüüniste suurus ületab vahendite lubatud mõõtmeid|mõõteid"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;PRT;PL(nitrit)",
+      "Generated word": "nitrite",
+      "Correct word": "nitriteid",
+      "Input": "V;ACT;PST;POS;IND;3;SG(võtma) N;NOM;SG(komisjon) N;IN+ALL;SG(koht) N;IN+ESS;SG(tööstus) V;PASS;PRS;POS;IND(kasutama) N;PRT;PL(nitrit) N;GEN;PL(lihatootekategooria) N;AT+ESS;SG(puhk)",
+      "Generation": "võttis komisjon kohta tööstuses kasutatakse nitrite lihatootekategooriate puhul",
+      "Correct": "võttis komisjon kohasse|kohta tööstuses kasutatakse nitriteid lihatootekategooriate puhul"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;PRT;PL(esi)",
+      "Generated word": "esisid",
+      "Correct word": "esi",
+      "Input": "N;IN+ESS;SG(liit) ADJ;POS;GEN;SG(antav) ADJ;POS;GEN;SG(erakorraline) N;GEN;SG(toetus) N;NOM;SG(vahend) N;PRT;PL(esi)",
+      "Generation": "liidus antava erakorralise toetuse vahend esisid",
+      "Correct": "liidus antava erakorralise toetuse vahend esi"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;SG(kasutusala)",
+      "Generated word": "kasutusalaga",
+      "Correct word": "kasutusala",
+      "Input": "N;GEN;PL(kasvuhoonegaas) ADJ;POS;NOM;SG(tahtlik) N;IN+ALL;SG(atmosfäär) N;NOM;SG(heitmine) V;ACT;PRS;POS;IND;3;SG(olema) V.PTCP;PASS;PST(keelama) N;NOM;SG(heitmine) V;ACT;PRS;POS;IMP;2;SG(olema) V.PTCP;PASS;PST(kavandama) N;GEN;SG(kasutusala) ADJ;POS;AT+ABL;SG(tehniline) ADJ;POS;NOM;SG(vajalik)",
+      "Generation": "kasvuhoonegaaside tahtlik atmosfääri heitmine on keelatud heitmine ole kavandatud kasutusalaga tehniliselt vajalik",
+      "Correct": "kasvuhoonegaaside tahtlik atmosfäärisse|atmosfääri heitmine on keelatud heitmine ole kavandatud kasutusala tehniliselt vajalik"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;SG(soojustoode)",
+      "Generated word": "soojustootep",
+      "Correct word": "soojustoote",
+      "Input": "N;GEN;SG(soojustoode) N;NOM;SG(tüüp)",
+      "Generation": "soojustootep tüüp",
+      "Correct": "soojustoote tüüp"
+    },
+    {
+      "Reason": "Generated word not among alternatives",
+      "Input word": "N;PRT;PL(lään)",
+      "Generated word": "lääni",
+      "Correct word": "lääne|läänisid",
+      "Input": "N;PRT;PL(lään)",
+      "Generation": "lääni",
+      "Correct": "lääne|läänisid"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;COM;SG(vähk)",
+      "Generated word": "vähaga",
+      "Correct word": "vähiga",
+      "Input": "N;NOM;SG(vähk) N;NOM;SG(vähidiagnoos) N;GEN;SG(vähiravi) N;COM;SG(vähk) N;NOM;SG(elamine) ADJ;POS;GEN;SG(viimane) N;GEN;SG(kuu) N;AT+ESS;SG(jooks)",
+      "Generation": "vähk vähidiagnoos vähiravi vähaga elamine viimase kuu jooksul",
+      "Correct": "vähk vähidiagnoos vähiravi vähiga elamine viimase kuu jooksul"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;NOM;SG(ringhäälingutehnik)",
+      "Generated word": "ringhäälingutehnika",
+      "Correct word": "ringhäälingutehnik",
+      "Input": "N;GEN;SG(või) N;NOM;SG(ringhäälingutehnik)",
+      "Generation": "või ringhäälingutehnika",
+      "Correct": "või ringhäälingutehnik"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;PRT;SG(pars)",
+      "Generated word": "parsa",
+      "Correct word": "part",
+      "Input": "V;ACT;PRS;POS;IND;3;SG(olema) N;PRT;SG(pars)",
+      "Generation": "on parsa",
+      "Correct": "on part"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "ADJ;POS;NOM;SG(söealane)",
+      "Generated word": "söealae",
+      "Correct word": "söealane",
+      "Input": "ADJ;POS;NOM;SG(söealane) N;NOM;SG(teadusprogramm)",
+      "Generation": "söealae teadusprogramm",
+      "Correct": "söealane teadusprogramm"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V;ACT;PRS;POS;IMP;2;SG(müüma)",
+      "Generated word": "müügi",
+      "Correct word": "müü",
+      "Input": "V;ACT;PRS;POS;IMP;2;SG(müüma) N;NOM;SG(kogumaht) N;GEN;SG(liit) N;AT+ESS;SG(turg) N;IN+ESS;PL(tonn)",
+      "Generation": "müügi kogumaht liidu turul tonnides",
+      "Correct": "müü kogumaht liidu turul tonnides"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;NOM;SG(elektrijuhistike)",
+      "Generated word": "elektrijuhistik",
+      "Correct word": "elektrijuhistike",
+      "Input": "N;NOM;SG(elektrijuhistike) N;NOM;PL(torusüsteem)",
+      "Generation": "elektrijuhistik torusüsteemid",
+      "Correct": "elektrijuhistike torusüsteemid"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "ADJ;POS;GEN;SG(keerd)",
+      "Generated word": "keerd",
+      "Correct word": "keeru",
+      "Input": "N;IN+ALL;SG(grupp) V.PTCP;ACT;PRS(kuuluma) ADJ;POS;IN+ABL;PL(keemiline) N;IN+ABL;PL(filamentkiud) N;NOM;SG(köisik) N;IN+ALL;SG(grupp) V.PTCP;ACT;PRS(kuuluma) N;NOM;SG(multifilamentlõng) N;GEN;SG(või) N;PRT;PL(laug) N;COM;SG(keerdumus) ADJ;POS;GEN;SG(keerd) N;AT+ESS;SG(meeter)",
+      "Generation": "gruppi kuuluv keemilistest filamentkiududest köisik gruppi kuuluv multifilamentlõng või lauge keerdumusega keerd meetril",
+      "Correct": "gruppi|grupisse kuuluv keemilisist|keemilistest filamentkiududest köisik gruppi|grupisse kuuluv multifilamentlõng või lauge|laugusid keerdumusega keeru meetril"
+    },
+    {
+      "Reason": "Generated word not among alternatives",
+      "Input word": "N;IN+ABL;PL(rööbas)",
+      "Generated word": "rööbasteest",
+      "Correct word": "rööpaist|rööbastest",
+      "Input": "N;NOM;SG(otsahaakeseadis) V;ACT;PST;POS;IND;3;SG(kõrguma) N;IN+ABL;PL(rööbas) N;NOM;SG(punkt)",
+      "Generation": "otsahaakeseadis kõrgus rööbasteest punkt",
+      "Correct": "otsahaakeseadis kõrgus rööpaist|rööbastest punkt"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;SG(netorahavoog)",
+      "Generated word": "netorahavoog)",
+      "Correct word": "netorahavoo",
+      "Input": "N;GEN;SG(netorahavoog) N;AT+ESS;SG(puhk) V;ACT;PST;POS;IND;3;SG(olema) N;NOM;SG(suundumus) ADJ;POS;NOM;SG(sarnane) N;GEN;SG(kasumlikkus) N;PRT;SG(aasta) V;ACT;PST;POS;IND;3;SG(iseloomustama) ADJ;POS;NOM;SG(negatiivne) N;NOM;SG(rekord) V;ACT;PST;POS;IND;3;SG(järgnema) ADJ;POS;NOM;SG(järsk) ADJ;POS;NOM;SG(edasine) N;IN+ESS;SG(lang) N;AT+ESS;SG(aasta) ADJ;POS;NOM;SG(märkimisväärne) N;NOM;SG(taastumine) N;AT+ESS;SG(aasta) V;ACT;PST;POS;IND;3;SG(suurenema) N;COM;SG(läbivaatamine) N;AT+ESS;SG(uurimisperiood)",
+      "Generation": "netorahavoog) puhul oli suundumus sarnane kasumlikkuse aastat iseloomustas negatiivne rekord järgnes järsk edasine langus aastal märkimisväärne taastumine aastal suurenes läbivaatamisega uurimisperioodil",
+      "Correct": "netorahavoo puhul oli suundumus sarnane kasumlikkuse aastat iseloomustas negatiivne rekord järgnes järsk edasine langus aastal märkimisväärne taastumine aastal suurenes läbivaatamisega uurimisperioodil"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;TRANS;SG(sihtkoht)",
+      "Generated word": "sihtkohta",
+      "Correct word": "sihtkohaks",
+      "Input": "N;TRANS;SG(sihtkoht) ADJ;POS;GEN;SG(olev) N;GEN;SG(kalakasvandus) N;NOM;SG(nimi) N;NOM;SG(number)",
+      "Generation": "sihtkohta oleva kalakasvanduse nimi number",
+      "Correct": "sihtkohaks oleva kalakasvanduse nimi number"
+    }
+  ],
+  "2568": [
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;SG(terviseteave)",
+      "Generated word": "tervishoiu",
+      "Correct word": "terviseteabe",
+      "Input": "N;GEN;PL(meditsiiniregister) N;GEN;SG(või) N;GEN;SG(terviseteave) N;GEN;SG(keskaste) N;NOM;SG(spetsialist)",
+      "Generation": "meditsiiniregistrite või tervishoiu keskaste spetsialist",
+      "Correct": "meditsiiniregistrite või terviseteabe keskastme spetsialist"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;SG(keskaste)",
+      "Generated word": "keskaste",
+      "Correct word": "keskastme",
+      "Input": "N;GEN;PL(meditsiiniregister) N;GEN;SG(või) N;GEN;SG(terviseteave) N;GEN;SG(keskaste) N;NOM;SG(spetsialist)",
+      "Generation": "meditsiiniregistrite või tervishoiu keskaste spetsialist",
+      "Correct": "meditsiiniregistrite või terviseteabe keskastme spetsialist"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;PRT;PL(nitrit)",
+      "Generated word": "nitrite",
+      "Correct word": "nitriteid",
+      "Input": "V;ACT;PST;POS;IND;3;SG(võtma) N;NOM;SG(komisjon) N;IN+ALL;SG(koht) N;IN+ESS;SG(tööstus) V;PASS;PRS;POS;IND(kasutama) N;PRT;PL(nitrit) N;GEN;PL(lihatootekategooria) N;AT+ESS;SG(puhk)",
+      "Generation": "võttis komisjon kohta tööstuses kasutatakse nitrite lihatootekategooriate puhul",
+      "Correct": "võttis komisjon kohasse|kohta tööstuses kasutatakse nitriteid lihatootekategooriate puhul"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;PRT;PL(esi)",
+      "Generated word": "esisid",
+      "Correct word": "esi",
+      "Input": "N;IN+ESS;SG(liit) ADJ;POS;GEN;SG(antav) ADJ;POS;GEN;SG(erakorraline) N;GEN;SG(toetus) N;NOM;SG(vahend) N;PRT;PL(esi)",
+      "Generation": "liidus antava erakorralise toetuse vahend esisid",
+      "Correct": "liidus antava erakorralise toetuse vahend esi"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;SG(kasutusala)",
+      "Generated word": "kasutusalaga",
+      "Correct word": "kasutusala",
+      "Input": "N;GEN;PL(kasvuhoonegaas) ADJ;POS;NOM;SG(tahtlik) N;IN+ALL;SG(atmosfäär) N;NOM;SG(heitmine) V;ACT;PRS;POS;IND;3;SG(olema) V.PTCP;PASS;PST(keelama) N;NOM;SG(heitmine) V;ACT;PRS;POS;IMP;2;SG(olema) V.PTCP;PASS;PST(kavandama) N;GEN;SG(kasutusala) ADJ;POS;AT+ABL;SG(tehniline) ADJ;POS;NOM;SG(vajalik)",
+      "Generation": "kasvuhoonegaaside tahtlik atmosfääri heitmine on keelatud heitmine ole kavandatud kasutusalaga tehniliselt vajalik",
+      "Correct": "kasvuhoonegaaside tahtlik atmosfäärisse|atmosfääri heitmine on keelatud heitmine ole kavandatud kasutusala tehniliselt vajalik"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;COM;SG(vähk)",
+      "Generated word": "vähaga",
+      "Correct word": "vähiga",
+      "Input": "N;NOM;SG(vähk) N;NOM;SG(vähidiagnoos) N;GEN;SG(vähiravi) N;COM;SG(vähk) N;NOM;SG(elamine) ADJ;POS;GEN;SG(viimane) N;GEN;SG(kuu) N;AT+ESS;SG(jooks)",
+      "Generation": "vähk vähidiagnoos vähiravi vähaga elamine viimase kuu jooksul",
+      "Correct": "vähk vähidiagnoos vähiravi vähiga elamine viimase kuu jooksul"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;PRT;SG(pars)",
+      "Generated word": "parsa",
+      "Correct word": "part",
+      "Input": "V;ACT;PRS;POS;IND;3;SG(olema) N;PRT;SG(pars)",
+      "Generation": "on parsa",
+      "Correct": "on part"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V;ACT;PRS;POS;IMP;2;SG(müüma)",
+      "Generated word": "müügi",
+      "Correct word": "müü",
+      "Input": "V;ACT;PRS;POS;IMP;2;SG(müüma) N;NOM;SG(kogumaht) N;GEN;SG(liit) N;AT+ESS;SG(turg) N;IN+ESS;PL(tonn)",
+      "Generation": "müügi kogumaht liidu turul tonnides",
+      "Correct": "müü kogumaht liidu turul tonnides"
+    },
+    {
+      "Reason": "Generated word not among alternatives",
+      "Input word": "N;NOM;PL(roog)",
+      "Generated word": "rooad",
+      "Correct word": "road|rood",
+      "Input": "N;NOM;SG(aadress) N;NOM;PL(roog) V;ACT;PRS;POS;IND;1;SG(irama)",
+      "Generation": "aadress rooad iran",
+      "Correct": "aadress road|rood iran"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "ADJ;POS;GEN;SG(keerd)",
+      "Generated word": "keerd",
+      "Correct word": "keeru",
+      "Input": "N;IN+ALL;SG(grupp) V.PTCP;ACT;PRS(kuuluma) ADJ;POS;IN+ABL;PL(keemiline) N;IN+ABL;PL(filamentkiud) N;NOM;SG(köisik) N;IN+ALL;SG(grupp) V.PTCP;ACT;PRS(kuuluma) N;NOM;SG(multifilamentlõng) N;GEN;SG(või) N;PRT;PL(laug) N;COM;SG(keerdumus) ADJ;POS;GEN;SG(keerd) N;AT+ESS;SG(meeter)",
+      "Generation": "gruppi kuuluv keemilistest filamentkiududest köisik gruppi kuuluv multifilamentlõng või lauge keerdumusega keerd meetril",
+      "Correct": "gruppi|grupisse kuuluv keemilisist|keemilistest filamentkiududest köisik gruppi|grupisse kuuluv multifilamentlõng või lauge|laugusid keerdumusega keeru meetril"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;PL(parandamine)",
+      "Generated word": "parandamise",
+      "Correct word": "parandamiste",
+      "Input": "ADJ;POS;IN+ESS;PL(tehniline) N;IN+ESS;PL(arvamus) V.PTCP;PASS;PST(avaldama) N;GEN;PL(viga) N;GEN;PL(parandamine) N;NOM;SG(rakendamine) V;ACT;PRS;POS;IMP;2;SG(olema) ADJ;POS;NOM;SG(kohustuslik)",
+      "Generation": "tehnilistes arvamustes avaldatud vigade parandamise rakendamine ole kohustuslik",
+      "Correct": "tehnilistes|tehnilisis arvamusis|arvamustes avaldatud vigade parandamiste rakendamine ole kohustuslik"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;SG(netorahavoog)",
+      "Generated word": "netorahavoog",
+      "Correct word": "netorahavoo",
+      "Input": "N;GEN;SG(netorahavoog) N;AT+ESS;SG(puhk) V;ACT;PST;POS;IND;3;SG(olema) N;NOM;SG(suundumus) ADJ;POS;NOM;SG(sarnane) N;GEN;SG(kasumlikkus) N;PRT;SG(aasta) V;ACT;PST;POS;IND;3;SG(iseloomustama) ADJ;POS;NOM;SG(negatiivne) N;NOM;SG(rekord) V;ACT;PST;POS;IND;3;SG(järgnema) ADJ;POS;NOM;SG(järsk) ADJ;POS;NOM;SG(edasine) N;IN+ESS;SG(lang) N;AT+ESS;SG(aasta) ADJ;POS;NOM;SG(märkimisväärne) N;NOM;SG(taastumine) N;AT+ESS;SG(aasta) V;ACT;PST;POS;IND;3;SG(suurenema) N;COM;SG(läbivaatamine) N;AT+ESS;SG(uurimisperiood)",
+      "Generation": "netorahavoog puhul oli suundumus sarnane kasumlikkuse aastat iseloomustas negatiivne rekord järgnes järsk edasine langus aastal märkimisväärne taastumine aastal suurenes läbivaatamisega uurimisperioodil",
+      "Correct": "netorahavoo puhul oli suundumus sarnane kasumlikkuse aastat iseloomustas negatiivne rekord järgnes järsk edasine langus aastal märkimisväärne taastumine aastal suurenes läbivaatamisega uurimisperioodil"
+    }
+  ],
+  "2996": [
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;IN+ESS;SG(teabenõue)",
+      "Generated word": "teabenõues",
+      "Correct word": "teabenõudes",
+      "Input": "V;ACT;PRS;POS;IND;3;SG(puuduma) N;NOM;SG(pädevus) N;IN+ESS;SG(teabenõue) V.PTCP;PASS;PST(käsitlema) N;GEN;PL(nõue) N;IN+ESS;SG(osa)",
+      "Generation": "puudub pädevus teabenõues käsitletud nõuete osas",
+      "Correct": "puudub pädevus teabenõudes käsitletud nõuete osas"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;SG(terviseteave)",
+      "Generated word": "terviseinfo",
+      "Correct word": "terviseteabe",
+      "Input": "N;GEN;PL(meditsiiniregister) N;GEN;SG(või) N;GEN;SG(terviseteave) N;GEN;SG(keskaste) N;NOM;SG(spetsialist)",
+      "Generation": "meditsiiniregistrite või terviseinfo keskastme spetsialist",
+      "Correct": "meditsiiniregistrite või terviseteabe keskastme spetsialist"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;PRT;PL(nitrit)",
+      "Generated word": "nitrite",
+      "Correct word": "nitriteid",
+      "Input": "V;ACT;PST;POS;IND;3;SG(võtma) N;NOM;SG(komisjon) N;IN+ALL;SG(koht) N;IN+ESS;SG(tööstus) V;PASS;PRS;POS;IND(kasutama) N;PRT;PL(nitrit) N;GEN;PL(lihatootekategooria) N;AT+ESS;SG(puhk)",
+      "Generation": "võttis komisjon kohta tööstuses kasutatakse nitrite lihatootekategooriate puhul",
+      "Correct": "võttis komisjon kohasse|kohta tööstuses kasutatakse nitriteid lihatootekategooriate puhul"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;PRT;PL(esi)",
+      "Generated word": "esisid",
+      "Correct word": "esi",
+      "Input": "N;IN+ESS;SG(liit) ADJ;POS;GEN;SG(antav) ADJ;POS;GEN;SG(erakorraline) N;GEN;SG(toetus) N;NOM;SG(vahend) N;PRT;PL(esi)",
+      "Generation": "liidus antava erakorralise toetuse vahend esisid",
+      "Correct": "liidus antava erakorralise toetuse vahend esi"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;SG(kasutusala)",
+      "Generated word": "kasutusalaga",
+      "Correct word": "kasutusala",
+      "Input": "N;GEN;PL(kasvuhoonegaas) ADJ;POS;NOM;SG(tahtlik) N;IN+ALL;SG(atmosfäär) N;NOM;SG(heitmine) V;ACT;PRS;POS;IND;3;SG(olema) V.PTCP;PASS;PST(keelama) N;NOM;SG(heitmine) V;ACT;PRS;POS;IMP;2;SG(olema) V.PTCP;PASS;PST(kavandama) N;GEN;SG(kasutusala) ADJ;POS;AT+ABL;SG(tehniline) ADJ;POS;NOM;SG(vajalik)",
+      "Generation": "kasvuhoonegaaside tahtlik atmosfääri heitmine on keelatud heitmine ole kavandatud kasutusalaga tehniliselt vajalik",
+      "Correct": "kasvuhoonegaaside tahtlik atmosfäärisse|atmosfääri heitmine on keelatud heitmine ole kavandatud kasutusala tehniliselt vajalik"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;COM;SG(vähk)",
+      "Generated word": "vähaga",
+      "Correct word": "vähiga",
+      "Input": "N;NOM;SG(vähk) N;NOM;SG(vähidiagnoos) N;GEN;SG(vähiravi) N;COM;SG(vähk) N;NOM;SG(elamine) ADJ;POS;GEN;SG(viimane) N;GEN;SG(kuu) N;AT+ESS;SG(jooks)",
+      "Generation": "vähk vähidiagnoos vähiravi vähaga elamine viimase kuu jooksul",
+      "Correct": "vähk vähidiagnoos vähiravi vähiga elamine viimase kuu jooksul"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;NOM;SG(ringhäälingutehnik)",
+      "Generated word": "ringhäälingutehnika",
+      "Correct word": "ringhäälingutehnik",
+      "Input": "N;GEN;SG(või) N;NOM;SG(ringhäälingutehnik)",
+      "Generation": "või ringhäälingutehnika",
+      "Correct": "või ringhäälingutehnik"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;PL(väärisese)",
+      "Generated word": "väärisesjade",
+      "Correct word": "väärisesemete",
+      "Input": "N;GEN;PL(väärisese) N;NOM;SG(soetamine) N;NOM;SG(miinus) N;NOM;SG(realiseerimine)",
+      "Generation": "väärisesjade soetamine miinus realiseerimine",
+      "Correct": "väärisesemete soetamine miinus realiseerimine"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;PRT;SG(pars)",
+      "Generated word": "parsa",
+      "Correct word": "part",
+      "Input": "V;ACT;PRS;POS;IND;3;SG(olema) N;PRT;SG(pars)",
+      "Generation": "on parsa",
+      "Correct": "on part"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V;ACT;PRS;POS;IMP;2;SG(müüma)",
+      "Generated word": "müügi",
+      "Correct word": "müü",
+      "Input": "V;ACT;PRS;POS;IMP;2;SG(müüma) N;NOM;SG(kogumaht) N;GEN;SG(liit) N;AT+ESS;SG(turg) N;IN+ESS;PL(tonn)",
+      "Generation": "müügi kogumaht liidu turul tonnides",
+      "Correct": "müü kogumaht liidu turul tonnides"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "ADJ;POS;NOM;SG(kristalliline)",
+      "Generated word": "kristalne",
+      "Correct word": "kristalliline",
+      "Input": "ADJ;POS;NOM;SG(kristalliline) N;NOM;SG(polüstüreen)",
+      "Generation": "kristalne polüstüreen",
+      "Correct": "kristalliline polüstüreen"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "ADJ;POS;GEN;SG(keerd)",
+      "Generated word": "keerdu",
+      "Correct word": "keeru",
+      "Input": "N;IN+ALL;SG(grupp) V.PTCP;ACT;PRS(kuuluma) ADJ;POS;IN+ABL;PL(keemiline) N;IN+ABL;PL(filamentkiud) N;NOM;SG(köisik) N;IN+ALL;SG(grupp) V.PTCP;ACT;PRS(kuuluma) N;NOM;SG(multifilamentlõng) N;GEN;SG(või) N;PRT;PL(laug) N;COM;SG(keerdumus) ADJ;POS;GEN;SG(keerd) N;AT+ESS;SG(meeter)",
+      "Generation": "gruppi kuuluv keemilistest filamentkiududest köisik gruppi kuuluv multifilamentlõng või lauge keerdumusega keerdu meetril",
+      "Correct": "gruppi|grupisse kuuluv keemilisist|keemilistest filamentkiududest köisik gruppi|grupisse kuuluv multifilamentlõng või lauge|laugusid keerdumusega keeru meetril"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;NOM;SG(asutus)",
+      "Generated word": "asutuse",
+      "Correct word": "asutus",
+      "Input": "N;GEN;SG(abi) ADJ;POS;GEN;SG(andev) N;NOM;SG(asutus) N;NOM;SG(nimi) N;NOM;PL(nimi)",
+      "Generation": "abi andva asutuse nimi nimed",
+      "Correct": "abi andva asutus nimi nimed"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;PL(parandamine)",
+      "Generated word": "parandamise",
+      "Correct word": "parandamiste",
+      "Input": "ADJ;POS;IN+ESS;PL(tehniline) N;IN+ESS;PL(arvamus) V.PTCP;PASS;PST(avaldama) N;GEN;PL(viga) N;GEN;PL(parandamine) N;NOM;SG(rakendamine) V;ACT;PRS;POS;IMP;2;SG(olema) ADJ;POS;NOM;SG(kohustuslik)",
+      "Generation": "tehnilistes arvamustes avaldatud vigade parandamise rakendamine ole kohustuslik",
+      "Correct": "tehnilistes|tehnilisis arvamusis|arvamustes avaldatud vigade parandamiste rakendamine ole kohustuslik"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;SG(netorahavoog)",
+      "Generated word": "netorahavoog",
+      "Correct word": "netorahavoo",
+      "Input": "N;GEN;SG(netorahavoog) N;AT+ESS;SG(puhk) V;ACT;PST;POS;IND;3;SG(olema) N;NOM;SG(suundumus) ADJ;POS;NOM;SG(sarnane) N;GEN;SG(kasumlikkus) N;PRT;SG(aasta) V;ACT;PST;POS;IND;3;SG(iseloomustama) ADJ;POS;NOM;SG(negatiivne) N;NOM;SG(rekord) V;ACT;PST;POS;IND;3;SG(järgnema) ADJ;POS;NOM;SG(järsk) ADJ;POS;NOM;SG(edasine) N;IN+ESS;SG(lang) N;AT+ESS;SG(aasta) ADJ;POS;NOM;SG(märkimisväärne) N;NOM;SG(taastumine) N;AT+ESS;SG(aasta) V;ACT;PST;POS;IND;3;SG(suurenema) N;COM;SG(läbivaatamine) N;AT+ESS;SG(uurimisperiood)",
+      "Generation": "netorahavoog puhul oli suundumus sarnane kasumlikkuse aastat iseloomustas negatiivne rekord järgnes järsk edasine langus aastal märkimisväärne taastumine aastal suurenes läbivaatamisega uurimisperioodil",
+      "Correct": "netorahavoo puhul oli suundumus sarnane kasumlikkuse aastat iseloomustas negatiivne rekord järgnes järsk edasine langus aastal märkimisväärne taastumine aastal suurenes läbivaatamisega uurimisperioodil"
+    }
+  ],
+  "3424": [
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;IN+ESS;SG(teabenõue)",
+      "Generated word": "teabenõues",
+      "Correct word": "teabenõudes",
+      "Input": "V;ACT;PRS;POS;IND;3;SG(puuduma) N;NOM;SG(pädevus) N;IN+ESS;SG(teabenõue) V.PTCP;PASS;PST(käsitlema) N;GEN;PL(nõue) N;IN+ESS;SG(osa)",
+      "Generation": "puudub pädevus teabenõues käsitletud nõuete osas",
+      "Correct": "puudub pädevus teabenõudes käsitletud nõuete osas"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;COM;SG(kvootosalus)",
+      "Generated word": "kvootiosalusega",
+      "Correct word": "kvootosalusega",
+      "Input": "N;COM;SG(kvootosalus) N;NOM;SG(edasikindlustusleping)",
+      "Generation": "kvootiosalusega edasikindlustusleping",
+      "Correct": "kvootosalusega edasikindlustusleping"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;SG(terviseteave)",
+      "Generated word": "terviseinfo",
+      "Correct word": "terviseteabe",
+      "Input": "N;GEN;PL(meditsiiniregister) N;GEN;SG(või) N;GEN;SG(terviseteave) N;GEN;SG(keskaste) N;NOM;SG(spetsialist)",
+      "Generation": "meditsiiniregistrite või terviseinfo keskastme spetsialist",
+      "Correct": "meditsiiniregistrite või terviseteabe keskastme spetsialist"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;PRT;PL(nitrit)",
+      "Generated word": "nitrite",
+      "Correct word": "nitriteid",
+      "Input": "V;ACT;PST;POS;IND;3;SG(võtma) N;NOM;SG(komisjon) N;IN+ALL;SG(koht) N;IN+ESS;SG(tööstus) V;PASS;PRS;POS;IND(kasutama) N;PRT;PL(nitrit) N;GEN;PL(lihatootekategooria) N;AT+ESS;SG(puhk)",
+      "Generation": "võttis komisjon kohta tööstuses kasutatakse nitrite lihatootekategooriate puhul",
+      "Correct": "võttis komisjon kohasse|kohta tööstuses kasutatakse nitriteid lihatootekategooriate puhul"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;PRT;PL(esi)",
+      "Generated word": "esisid",
+      "Correct word": "esi",
+      "Input": "N;IN+ESS;SG(liit) ADJ;POS;GEN;SG(antav) ADJ;POS;GEN;SG(erakorraline) N;GEN;SG(toetus) N;NOM;SG(vahend) N;PRT;PL(esi)",
+      "Generation": "liidus antava erakorralise toetuse vahend esisid",
+      "Correct": "liidus antava erakorralise toetuse vahend esi"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;COM;SG(vähk)",
+      "Generated word": "vähaga",
+      "Correct word": "vähiga",
+      "Input": "N;NOM;SG(vähk) N;NOM;SG(vähidiagnoos) N;GEN;SG(vähiravi) N;COM;SG(vähk) N;NOM;SG(elamine) ADJ;POS;GEN;SG(viimane) N;GEN;SG(kuu) N;AT+ESS;SG(jooks)",
+      "Generation": "vähk vähidiagnoos vähiravi vähaga elamine viimase kuu jooksul",
+      "Correct": "vähk vähidiagnoos vähiravi vähiga elamine viimase kuu jooksul"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;NOM;SG(ringhäälingutehnik)",
+      "Generated word": "ringhäälingutehnika",
+      "Correct word": "ringhäälingutehnik",
+      "Input": "N;GEN;SG(või) N;NOM;SG(ringhäälingutehnik)",
+      "Generation": "või ringhäälingutehnika",
+      "Correct": "või ringhäälingutehnik"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;PL(väärisese)",
+      "Generated word": "väärisesjade",
+      "Correct word": "väärisesemete",
+      "Input": "N;GEN;PL(väärisese) N;NOM;SG(soetamine) N;NOM;SG(miinus) N;NOM;SG(realiseerimine)",
+      "Generation": "väärisesjade soetamine miinus realiseerimine",
+      "Correct": "väärisesemete soetamine miinus realiseerimine"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;PRT;SG(pars)",
+      "Generated word": "parsa",
+      "Correct word": "part",
+      "Input": "V;ACT;PRS;POS;IND;3;SG(olema) N;PRT;SG(pars)",
+      "Generation": "on parsa",
+      "Correct": "on part"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V;ACT;PRS;POS;IMP;2;SG(müüma)",
+      "Generated word": "müügi",
+      "Correct word": "müü",
+      "Input": "V;ACT;PRS;POS;IMP;2;SG(müüma) N;NOM;SG(kogumaht) N;GEN;SG(liit) N;AT+ESS;SG(turg) N;IN+ESS;PL(tonn)",
+      "Generation": "müügi kogumaht liidu turul tonnides",
+      "Correct": "müü kogumaht liidu turul tonnides"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "ADJ;POS;NOM;SG(kristalliline)",
+      "Generated word": "kristalne",
+      "Correct word": "kristalliline",
+      "Input": "ADJ;POS;NOM;SG(kristalliline) N;NOM;SG(polüstüreen)",
+      "Generation": "kristalne polüstüreen",
+      "Correct": "kristalliline polüstüreen"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;IN+ESS;SG(tütarettevõte)",
+      "Generated word": "tütarettevõites",
+      "Correct word": "tütarettevõttes",
+      "Input": "ADJ;POS;AT+ALL;PL(mittekontrolliv) N;AT+ALL;PL(osalus) V.PTCP;ACT;PRS(kuuluma) N;IN+ALL;SG(omakapital) N;GEN;SG(osa) V;ACT;PRS;POS;IND;3;SG(muutuma) V;ACT;PRS;POS;IND;3;SG(korrigeerima) N;NOM;SG(üksus) ADJ;POS;GEN;PL(kontrolliv) ADJ;POS;GEN;PL(mittekontrolliv) N;GEN;PL(osalus) ADJ;POS;PRT;SG(bilansiline) N;PRT;SG(jääkmaksumus) N;PRT;PL(muutus) N;IN+ESS;SG(tütarettevõte) ADJ;POS;IN+ESS;PL(kuuluv) ADJ;POS;IN+ESS;PL(suhteline) N;IN+ESS;PL(osalus)",
+      "Generation": "mittekontrollivatele osalustele kuuluv omakapitali osa muutub korrigeerib üksus kontrollivate mittekontrollivate osaluste bilansilist jääkmaksumust muutusi tütarettevõites kuuluvates suhtelistes osalustes",
+      "Correct": "mittekontrollivaile|mittekontrollivatele osalustele|osalusile kuuluv omakapitalisse|omakapitali osa muutub korrigeerib üksus kontrollivate mittekontrollivate osaluste bilansilist jääkmaksumust muutuseid|muutusi tütarettevõttes kuuluvates|kuuluvais suhtelistes|suhtelisis osalustes|osalusis"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "ADJ;POS;GEN;SG(keerd)",
+      "Generated word": "keerdu",
+      "Correct word": "keeru",
+      "Input": "N;IN+ALL;SG(grupp) V.PTCP;ACT;PRS(kuuluma) ADJ;POS;IN+ABL;PL(keemiline) N;IN+ABL;PL(filamentkiud) N;NOM;SG(köisik) N;IN+ALL;SG(grupp) V.PTCP;ACT;PRS(kuuluma) N;NOM;SG(multifilamentlõng) N;GEN;SG(või) N;PRT;PL(laug) N;COM;SG(keerdumus) ADJ;POS;GEN;SG(keerd) N;AT+ESS;SG(meeter)",
+      "Generation": "gruppi kuuluv keemilistest filamentkiududest köisik gruppi kuuluv multifilamentlõng või lauge keerdumusega keerdu meetril",
+      "Correct": "gruppi|grupisse kuuluv keemilisist|keemilistest filamentkiududest köisik gruppi|grupisse kuuluv multifilamentlõng või lauge|laugusid keerdumusega keeru meetril"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;PL(parandamine)",
+      "Generated word": "parandamise",
+      "Correct word": "parandamiste",
+      "Input": "ADJ;POS;IN+ESS;PL(tehniline) N;IN+ESS;PL(arvamus) V.PTCP;PASS;PST(avaldama) N;GEN;PL(viga) N;GEN;PL(parandamine) N;NOM;SG(rakendamine) V;ACT;PRS;POS;IMP;2;SG(olema) ADJ;POS;NOM;SG(kohustuslik)",
+      "Generation": "tehnilistes arvamustes avaldatud vigade parandamise rakendamine ole kohustuslik",
+      "Correct": "tehnilistes|tehnilisis arvamusis|arvamustes avaldatud vigade parandamiste rakendamine ole kohustuslik"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;SG(netorahavoog)",
+      "Generated word": "netorahavoog",
+      "Correct word": "netorahavoo",
+      "Input": "N;GEN;SG(netorahavoog) N;AT+ESS;SG(puhk) V;ACT;PST;POS;IND;3;SG(olema) N;NOM;SG(suundumus) ADJ;POS;NOM;SG(sarnane) N;GEN;SG(kasumlikkus) N;PRT;SG(aasta) V;ACT;PST;POS;IND;3;SG(iseloomustama) ADJ;POS;NOM;SG(negatiivne) N;NOM;SG(rekord) V;ACT;PST;POS;IND;3;SG(järgnema) ADJ;POS;NOM;SG(järsk) ADJ;POS;NOM;SG(edasine) N;IN+ESS;SG(lang) N;AT+ESS;SG(aasta) ADJ;POS;NOM;SG(märkimisväärne) N;NOM;SG(taastumine) N;AT+ESS;SG(aasta) V;ACT;PST;POS;IND;3;SG(suurenema) N;COM;SG(läbivaatamine) N;AT+ESS;SG(uurimisperiood)",
+      "Generation": "netorahavoog puhul oli suundumus sarnane kasumlikkuse aastat iseloomustas negatiivne rekord järgnes järsk edasine langus aastal märkimisväärne taastumine aastal suurenes läbivaatamisega uurimisperioodil",
+      "Correct": "netorahavoo puhul oli suundumus sarnane kasumlikkuse aastat iseloomustas negatiivne rekord järgnes järsk edasine langus aastal märkimisväärne taastumine aastal suurenes läbivaatamisega uurimisperioodil"
+    }
+  ],
+  "3852": [
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;IN+ESS;SG(teabenõue)",
+      "Generated word": "teabenõues",
+      "Correct word": "teabenõudes",
+      "Input": "V;ACT;PRS;POS;IND;3;SG(puuduma) N;NOM;SG(pädevus) N;IN+ESS;SG(teabenõue) V.PTCP;PASS;PST(käsitlema) N;GEN;PL(nõue) N;IN+ESS;SG(osa)",
+      "Generation": "puudub pädevus teabenõues käsitletud nõuete osas",
+      "Correct": "puudub pädevus teabenõudes käsitletud nõuete osas"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;COM;SG(kvootosalus)",
+      "Generated word": "kvootiosalusega",
+      "Correct word": "kvootosalusega",
+      "Input": "N;COM;SG(kvootosalus) N;NOM;SG(edasikindlustusleping)",
+      "Generation": "kvootiosalusega edasikindlustusleping",
+      "Correct": "kvootosalusega edasikindlustusleping"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;SG(terviseteave)",
+      "Generated word": "tervishoiu",
+      "Correct word": "terviseteabe",
+      "Input": "N;GEN;PL(meditsiiniregister) N;GEN;SG(või) N;GEN;SG(terviseteave) N;GEN;SG(keskaste) N;NOM;SG(spetsialist)",
+      "Generation": "meditsiiniregistrite või tervishoiu keskastme spetsialist",
+      "Correct": "meditsiiniregistrite või terviseteabe keskastme spetsialist"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;PL(aktiivpüünis)",
+      "Generated word": "aktiivpüügi",
+      "Correct word": "aktiivpüüniste",
+      "Input": "N;GEN;SG(või) N;GEN;SG(osa) N;GEN;PL(aktiivpüünis) N;NOM;SG(suurus) V;ACT;PRS;POS;IND;3;SG(ületama) N;GEN;PL(vahend) V.PTCP;PASS;PST(lubama) N;PRT;PL(mõõde)",
+      "Generation": "või osa aktiivpüügi suurus ületab vahendite lubatud mõõtmeid",
+      "Correct": "või osa aktiivpüüniste suurus ületab vahendite lubatud mõõtmeid|mõõteid"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;PRT;PL(nitrit)",
+      "Generated word": "nitrite",
+      "Correct word": "nitriteid",
+      "Input": "V;ACT;PST;POS;IND;3;SG(võtma) N;NOM;SG(komisjon) N;IN+ALL;SG(koht) N;IN+ESS;SG(tööstus) V;PASS;PRS;POS;IND(kasutama) N;PRT;PL(nitrit) N;GEN;PL(lihatootekategooria) N;AT+ESS;SG(puhk)",
+      "Generation": "võttis komisjon kohta tööstuses kasutatakse nitrite lihatootekategooriate puhul",
+      "Correct": "võttis komisjon kohasse|kohta tööstuses kasutatakse nitriteid lihatootekategooriate puhul"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;PRT;PL(esi)",
+      "Generated word": "esisid",
+      "Correct word": "esi",
+      "Input": "N;IN+ESS;SG(liit) ADJ;POS;GEN;SG(antav) ADJ;POS;GEN;SG(erakorraline) N;GEN;SG(toetus) N;NOM;SG(vahend) N;PRT;PL(esi)",
+      "Generation": "liidus antava erakorralise toetuse vahend esisid",
+      "Correct": "liidus antava erakorralise toetuse vahend esi"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;COM;SG(vähk)",
+      "Generated word": "vähaga",
+      "Correct word": "vähiga",
+      "Input": "N;NOM;SG(vähk) N;NOM;SG(vähidiagnoos) N;GEN;SG(vähiravi) N;COM;SG(vähk) N;NOM;SG(elamine) ADJ;POS;GEN;SG(viimane) N;GEN;SG(kuu) N;AT+ESS;SG(jooks)",
+      "Generation": "vähk vähidiagnoos vähiravi vähaga elamine viimase kuu jooksul",
+      "Correct": "vähk vähidiagnoos vähiravi vähiga elamine viimase kuu jooksul"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;NOM;SG(ringhäälingutehnik)",
+      "Generated word": "ringhäälingutehnika",
+      "Correct word": "ringhäälingutehnik",
+      "Input": "N;GEN;SG(või) N;NOM;SG(ringhäälingutehnik)",
+      "Generation": "või ringhäälingutehnika",
+      "Correct": "või ringhäälingutehnik"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;PL(väärisese)",
+      "Generated word": "väärisesjade",
+      "Correct word": "väärisesemete",
+      "Input": "N;GEN;PL(väärisese) N;NOM;SG(soetamine) N;NOM;SG(miinus) N;NOM;SG(realiseerimine)",
+      "Generation": "väärisesjade soetamine miinus realiseerimine",
+      "Correct": "väärisesemete soetamine miinus realiseerimine"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;PRT;SG(pars)",
+      "Generated word": "parsa",
+      "Correct word": "part",
+      "Input": "V;ACT;PRS;POS;IND;3;SG(olema) N;PRT;SG(pars)",
+      "Generation": "on parsa",
+      "Correct": "on part"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V;ACT;PRS;POS;IMP;2;SG(müüma)",
+      "Generated word": "müügi",
+      "Correct word": "müü",
+      "Input": "V;ACT;PRS;POS;IMP;2;SG(müüma) N;NOM;SG(kogumaht) N;GEN;SG(liit) N;AT+ESS;SG(turg) N;IN+ESS;PL(tonn)",
+      "Generation": "müügi kogumaht liidu turul tonnides",
+      "Correct": "müü kogumaht liidu turul tonnides"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "ADJ;POS;NOM;SG(kristalliline)",
+      "Generated word": "kristalne",
+      "Correct word": "kristalliline",
+      "Input": "ADJ;POS;NOM;SG(kristalliline) N;NOM;SG(polüstüreen)",
+      "Generation": "kristalne polüstüreen",
+      "Correct": "kristalliline polüstüreen"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "ADJ;POS;GEN;SG(keerd)",
+      "Generated word": "keerdu",
+      "Correct word": "keeru",
+      "Input": "N;IN+ALL;SG(grupp) V.PTCP;ACT;PRS(kuuluma) ADJ;POS;IN+ABL;PL(keemiline) N;IN+ABL;PL(filamentkiud) N;NOM;SG(köisik) N;IN+ALL;SG(grupp) V.PTCP;ACT;PRS(kuuluma) N;NOM;SG(multifilamentlõng) N;GEN;SG(või) N;PRT;PL(laug) N;COM;SG(keerdumus) ADJ;POS;GEN;SG(keerd) N;AT+ESS;SG(meeter)",
+      "Generation": "gruppi kuuluv keemilistest filamentkiududest köisik gruppi kuuluv multifilamentlõng või lauge keerdumusega keerdu meetril",
+      "Correct": "gruppi|grupisse kuuluv keemilisist|keemilistest filamentkiududest köisik gruppi|grupisse kuuluv multifilamentlõng või lauge|laugusid keerdumusega keeru meetril"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;PL(parandamine)",
+      "Generated word": "parandamise",
+      "Correct word": "parandamiste",
+      "Input": "ADJ;POS;IN+ESS;PL(tehniline) N;IN+ESS;PL(arvamus) V.PTCP;PASS;PST(avaldama) N;GEN;PL(viga) N;GEN;PL(parandamine) N;NOM;SG(rakendamine) V;ACT;PRS;POS;IMP;2;SG(olema) ADJ;POS;NOM;SG(kohustuslik)",
+      "Generation": "tehnilistes arvamustes avaldatud vigade parandamise rakendamine ole kohustuslik",
+      "Correct": "tehnilistes|tehnilisis arvamusis|arvamustes avaldatud vigade parandamiste rakendamine ole kohustuslik"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;SG(netorahavoog)",
+      "Generated word": "netorahavoog",
+      "Correct word": "netorahavoo",
+      "Input": "N;GEN;SG(netorahavoog) N;AT+ESS;SG(puhk) V;ACT;PST;POS;IND;3;SG(olema) N;NOM;SG(suundumus) ADJ;POS;NOM;SG(sarnane) N;GEN;SG(kasumlikkus) N;PRT;SG(aasta) V;ACT;PST;POS;IND;3;SG(iseloomustama) ADJ;POS;NOM;SG(negatiivne) N;NOM;SG(rekord) V;ACT;PST;POS;IND;3;SG(järgnema) ADJ;POS;NOM;SG(järsk) ADJ;POS;NOM;SG(edasine) N;IN+ESS;SG(lang) N;AT+ESS;SG(aasta) ADJ;POS;NOM;SG(märkimisväärne) N;NOM;SG(taastumine) N;AT+ESS;SG(aasta) V;ACT;PST;POS;IND;3;SG(suurenema) N;COM;SG(läbivaatamine) N;AT+ESS;SG(uurimisperiood)",
+      "Generation": "netorahavoog puhul oli suundumus sarnane kasumlikkuse aastat iseloomustas negatiivne rekord järgnes järsk edasine langus aastal märkimisväärne taastumine aastal suurenes läbivaatamisega uurimisperioodil",
+      "Correct": "netorahavoo puhul oli suundumus sarnane kasumlikkuse aastat iseloomustas negatiivne rekord järgnes järsk edasine langus aastal märkimisväärne taastumine aastal suurenes läbivaatamisega uurimisperioodil"
+    }
+  ],
+  "4280": [
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;COM;SG(kvootosalus)",
+      "Generated word": "kvootiosalusega",
+      "Correct word": "kvootosalusega",
+      "Input": "N;COM;SG(kvootosalus) N;NOM;SG(edasikindlustusleping)",
+      "Generation": "kvootiosalusega edasikindlustusleping",
+      "Correct": "kvootosalusega edasikindlustusleping"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;SG(terviseteave)",
+      "Generated word": "tervishoiu",
+      "Correct word": "terviseteabe",
+      "Input": "N;GEN;PL(meditsiiniregister) N;GEN;SG(või) N;GEN;SG(terviseteave) N;GEN;SG(keskaste) N;NOM;SG(spetsialist)",
+      "Generation": "meditsiiniregistrite või tervishoiu keskastme spetsialist",
+      "Correct": "meditsiiniregistrite või terviseteabe keskastme spetsialist"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;PL(aktiivpüünis)",
+      "Generated word": "aktiivpüügi",
+      "Correct word": "aktiivpüüniste",
+      "Input": "N;GEN;SG(või) N;GEN;SG(osa) N;GEN;PL(aktiivpüünis) N;NOM;SG(suurus) V;ACT;PRS;POS;IND;3;SG(ületama) N;GEN;PL(vahend) V.PTCP;PASS;PST(lubama) N;PRT;PL(mõõde)",
+      "Generation": "või osa aktiivpüügi suurus ületab vahendite lubatud mõõtmeid",
+      "Correct": "või osa aktiivpüüniste suurus ületab vahendite lubatud mõõtmeid|mõõteid"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;PRT;PL(nitrit)",
+      "Generated word": "nitrite",
+      "Correct word": "nitriteid",
+      "Input": "V;ACT;PST;POS;IND;3;SG(võtma) N;NOM;SG(komisjon) N;IN+ALL;SG(koht) N;IN+ESS;SG(tööstus) V;PASS;PRS;POS;IND(kasutama) N;PRT;PL(nitrit) N;GEN;PL(lihatootekategooria) N;AT+ESS;SG(puhk)",
+      "Generation": "võttis komisjon kohta tööstuses kasutatakse nitrite lihatootekategooriate puhul",
+      "Correct": "võttis komisjon kohasse|kohta tööstuses kasutatakse nitriteid lihatootekategooriate puhul"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;PRT;PL(esi)",
+      "Generated word": "esisid",
+      "Correct word": "esi",
+      "Input": "N;IN+ESS;SG(liit) ADJ;POS;GEN;SG(antav) ADJ;POS;GEN;SG(erakorraline) N;GEN;SG(toetus) N;NOM;SG(vahend) N;PRT;PL(esi)",
+      "Generation": "liidus antava erakorralise toetuse vahend esisid",
+      "Correct": "liidus antava erakorralise toetuse vahend esi"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;COM;SG(vähk)",
+      "Generated word": "vähaga",
+      "Correct word": "vähiga",
+      "Input": "N;NOM;SG(vähk) N;NOM;SG(vähidiagnoos) N;GEN;SG(vähiravi) N;COM;SG(vähk) N;NOM;SG(elamine) ADJ;POS;GEN;SG(viimane) N;GEN;SG(kuu) N;AT+ESS;SG(jooks)",
+      "Generation": "vähk vähidiagnoos vähiravi vähaga elamine viimase kuu jooksul",
+      "Correct": "vähk vähidiagnoos vähiravi vähiga elamine viimase kuu jooksul"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;NOM;SG(ringhäälingutehnik)",
+      "Generated word": "ringhäälingutehnika",
+      "Correct word": "ringhäälingutehnik",
+      "Input": "N;GEN;SG(või) N;NOM;SG(ringhäälingutehnik)",
+      "Generation": "või ringhäälingutehnika",
+      "Correct": "või ringhäälingutehnik"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;PL(väärisese)",
+      "Generated word": "väärisesjade",
+      "Correct word": "väärisesemete",
+      "Input": "N;GEN;PL(väärisese) N;NOM;SG(soetamine) N;NOM;SG(miinus) N;NOM;SG(realiseerimine)",
+      "Generation": "väärisesjade soetamine miinus realiseerimine",
+      "Correct": "väärisesemete soetamine miinus realiseerimine"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;PRT;SG(pars)",
+      "Generated word": "parsa",
+      "Correct word": "part",
+      "Input": "V;ACT;PRS;POS;IND;3;SG(olema) N;PRT;SG(pars)",
+      "Generation": "on parsa",
+      "Correct": "on part"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "V;ACT;PRS;POS;IMP;2;SG(müüma)",
+      "Generated word": "müügi",
+      "Correct word": "müü",
+      "Input": "V;ACT;PRS;POS;IMP;2;SG(müüma) N;NOM;SG(kogumaht) N;GEN;SG(liit) N;AT+ESS;SG(turg) N;IN+ESS;PL(tonn)",
+      "Generation": "müügi kogumaht liidu turul tonnides",
+      "Correct": "müü kogumaht liidu turul tonnides"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "ADJ;POS;NOM;SG(kristalliline)",
+      "Generated word": "kristalne",
+      "Correct word": "kristalliline",
+      "Input": "ADJ;POS;NOM;SG(kristalliline) N;NOM;SG(polüstüreen)",
+      "Generation": "kristalne polüstüreen",
+      "Correct": "kristalliline polüstüreen"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "ADJ;POS;GEN;SG(keerd)",
+      "Generated word": "keerdu",
+      "Correct word": "keeru",
+      "Input": "N;IN+ALL;SG(grupp) V.PTCP;ACT;PRS(kuuluma) ADJ;POS;IN+ABL;PL(keemiline) N;IN+ABL;PL(filamentkiud) N;NOM;SG(köisik) N;IN+ALL;SG(grupp) V.PTCP;ACT;PRS(kuuluma) N;NOM;SG(multifilamentlõng) N;GEN;SG(või) N;PRT;PL(laug) N;COM;SG(keerdumus) ADJ;POS;GEN;SG(keerd) N;AT+ESS;SG(meeter)",
+      "Generation": "gruppi kuuluv keemilistest filamentkiududest köisik gruppi kuuluv multifilamentlõng või lauge keerdumusega keerdu meetril",
+      "Correct": "gruppi|grupisse kuuluv keemilisist|keemilistest filamentkiududest köisik gruppi|grupisse kuuluv multifilamentlõng või lauge|laugusid keerdumusega keeru meetril"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;PL(parandamine)",
+      "Generated word": "parandamise",
+      "Correct word": "parandamiste",
+      "Input": "ADJ;POS;IN+ESS;PL(tehniline) N;IN+ESS;PL(arvamus) V.PTCP;PASS;PST(avaldama) N;GEN;PL(viga) N;GEN;PL(parandamine) N;NOM;SG(rakendamine) V;ACT;PRS;POS;IMP;2;SG(olema) ADJ;POS;NOM;SG(kohustuslik)",
+      "Generation": "tehnilistes arvamustes avaldatud vigade parandamise rakendamine ole kohustuslik",
+      "Correct": "tehnilistes|tehnilisis arvamusis|arvamustes avaldatud vigade parandamiste rakendamine ole kohustuslik"
+    },
+    {
+      "Reason": "Wrong word generated",
+      "Input word": "N;GEN;SG(netorahavoog)",
+      "Generated word": "netorahavoog",
+      "Correct word": "netorahavoo",
+      "Input": "N;GEN;SG(netorahavoog) N;AT+ESS;SG(puhk) V;ACT;PST;POS;IND;3;SG(olema) N;NOM;SG(suundumus) ADJ;POS;NOM;SG(sarnane) N;GEN;SG(kasumlikkus) N;PRT;SG(aasta) V;ACT;PST;POS;IND;3;SG(iseloomustama) ADJ;POS;NOM;SG(negatiivne) N;NOM;SG(rekord) V;ACT;PST;POS;IND;3;SG(järgnema) ADJ;POS;NOM;SG(järsk) ADJ;POS;NOM;SG(edasine) N;IN+ESS;SG(lang) N;AT+ESS;SG(aasta) ADJ;POS;NOM;SG(märkimisväärne) N;NOM;SG(taastumine) N;AT+ESS;SG(aasta) V;ACT;PST;POS;IND;3;SG(suurenema) N;COM;SG(läbivaatamine) N;AT+ESS;SG(uurimisperiood)",
+      "Generation": "netorahavoog puhul oli suundumus sarnane kasumlikkuse aastat iseloomustas negatiivne rekord järgnes järsk edasine langus aastal märkimisväärne taastumine aastal suurenes läbivaatamisega uurimisperioodil",
+      "Correct": "netorahavoo puhul oli suundumus sarnane kasumlikkuse aastat iseloomustas negatiivne rekord järgnes järsk edasine langus aastal märkimisväärne taastumine aastal suurenes läbivaatamisega uurimisperioodil"
+    }
+  ]
+}

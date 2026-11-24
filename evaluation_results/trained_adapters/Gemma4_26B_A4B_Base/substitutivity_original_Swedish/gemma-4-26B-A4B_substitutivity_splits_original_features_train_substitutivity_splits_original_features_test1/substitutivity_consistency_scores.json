@@ -1,0 +1,72 @@
+{
+    "402": {
+        "consistent_correct": 7294,
+        "consistent_incorrect": 30,
+        "inconsistent": 20,
+        "total_relevant": 7344,
+        "different_word_count": 12
+    },
+    "804": {
+        "consistent_correct": 7375,
+        "consistent_incorrect": 21,
+        "inconsistent": 7,
+        "total_relevant": 7403,
+        "different_word_count": 7
+    },
+    "1206": {
+        "consistent_correct": 7348,
+        "consistent_incorrect": 26,
+        "inconsistent": 20,
+        "total_relevant": 7394,
+        "different_word_count": 9
+    },
+    "1608": {
+        "consistent_correct": 7412,
+        "consistent_incorrect": 24,
+        "inconsistent": 15,
+        "total_relevant": 7451,
+        "different_word_count": 5
+    },
+    "2010": {
+        "consistent_correct": 7422,
+        "consistent_incorrect": 21,
+        "inconsistent": 11,
+        "total_relevant": 7454,
+        "different_word_count": 4
+    },
+    "2412": {
+        "consistent_correct": 7416,
+        "consistent_incorrect": 23,
+        "inconsistent": 12,
+        "total_relevant": 7451,
+        "different_word_count": 4
+    },
+    "2814": {
+        "consistent_correct": 7414,
+        "consistent_incorrect": 25,
+        "inconsistent": 11,
+        "total_relevant": 7450,
+        "different_word_count": 5
+    },
+    "3216": {
+        "consistent_correct": 7418,
+        "consistent_incorrect": 20,
+        "inconsistent": 12,
+        "total_relevant": 7450,
+        "different_word_count": 5
+    },
+    "3618": {
+        "consistent_correct": 7409,
+        "consistent_incorrect": 24,
+        "inconsistent": 15,
+        "total_relevant": 7448,
+        "different_word_count": 6
+    },
+    "4020": {
+        "consistent_correct": 7411,
+        "consistent_incorrect": 24,
+        "inconsistent": 13,
+        "total_relevant": 7448,
+        "different_word_count": 6
+    }
+}
