@@ -1,0 +1,14 @@
+metadata:
+    language: swe
+import:
+    importer: xml_import:parse
+    text_annotation: document
+export:
+    annotations:
+        - <token>:saldo.baseform2 as baseform
+        - <token>:saldo.lemgram
+        - <token>:saldo.compwf
+        - <token>:saldo.complemgram
+        - <token>:stanza.msd
+        - <token>:stanza.pos
+        - <token>:stanza.ufeats
