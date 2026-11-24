@@ -20,12 +20,9 @@
 - The main model training script is main_final.py
 - Code for distributed training is in hpo_qwen/
     - The files trial.py and final.py contain code for hyperparameter search and the final training run respectively
-    - The driver_*.py files are the ones that queue the hyperparameter search trials and once those are done the final training run
+    - The driver.py file contains code for queueing the hyperparameter search trials and once those are done the final training run
 
 
 ## Evaluation
 
 - The main evaluation code is in evaluate.py
-- Evaluation results are available in evaluation_results/
-- A random sample of 50 errors per model and random test split is available in error_samples/
-
