@@ -1,0 +1,28 @@
+[project]
+name = "cross-lingual-compositional-generalization"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "accelerate>=1.13.0",
+    "bitsandbytes>=0.49.2",
+    "datasets>=4.6.1",
+    "estnltk>=1.7.4",
+    "estnltk-neural>=1.7.4",
+    "gliner==0.2.10",
+    "ipykernel>=7.1.0",
+    "jupyterlab>=4.5.2",
+    "ninja>=1.13.0",
+    "openpyxl>=3.1.5",
+    "optuna>=4.7.0",
+    "pandas>=2.3.3",
+    "peft>=0.19",
+    "sentencepiece>=0.2.1",
+    "spacy>=3.8.11",
+    "sparv>=5.3.1",
+    "transformers>=5.5.4",
+    "trl>=0.29.0",
+    "wandb>=0.25.0",
+    "xmltodict>=1.0.2",
+]
